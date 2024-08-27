@@ -1,1 +1,60 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [],
+  "subscribe": {},
+  "navigation": {
+    "links": [
+      {
+        "label": "Quem Somos",
+        "url": "quem-somos"
+      },
+      {
+        "label": "Pilares",
+        "url": "pilares"
+      },
+      {
+        "label": "Parceiros",
+        "url": "parceiros"
+      },
+      {
+        "label": "Impacto",
+        "url": "impacto"
+      },
+      {
+        "label": "Projetos",
+        "url": "projetos"
+      },
+      {
+        "label": "Prêmios",
+        "url": "premios"
+      },
+      {
+        "label": "Mídia",
+        "url": "midia"
+      }
+    ],
+    "buttons": [
+      {
+        "src": "Linkedin",
+        "url": "#as",
+        "alt": "Linkedin Logo"
+      },
+      {
+        "src": "Facebook",
+        "url": "https://www.google.com.br/?hl=pt-BR",
+        "alt": "Facebook Icon"
+      },
+      {
+        "src": "Twitter",
+        "url": "#as",
+        "alt": "Twitter"
+      }
+    ]
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/b4377d86-77f5-46b2-ae02-91d85562dd8c",
+    "alt": "movTech logo"
+  }
+}

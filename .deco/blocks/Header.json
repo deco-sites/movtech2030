@@ -1,1 +1,44 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Quem Somos",
+        "url": "quem-somos"
+      },
+      {
+        "label": "Pilares",
+        "url": "pilares"
+      },
+      {
+        "label": "Parceiros",
+        "url": "parceiros"
+      },
+      {
+        "label": "Impacto",
+        "url": "impacto"
+      },
+      {
+        "label": "Projetos",
+        "url": "projetos"
+      },
+      {
+        "label": "Prêmios",
+        "url": "premios"
+      },
+      {
+        "url": "midia",
+        "label": "Mídia"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "HOME",
+        "href": "/"
+      }
+    ]
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/b4377d86-77f5-46b2-ae02-91d85562dd8c"
+  }
+}
