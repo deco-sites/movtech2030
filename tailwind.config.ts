@@ -9,8 +9,10 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'sans-serif'], // Custom font for sans-serif
-       
+        serif: ['Merriweather', 'serif'], // Custom font for serif
+        mono: ['Fira Code', 'monospace'], // Custom font for monospace
       },
+      fontWeight: 700,
       animation: {
         sliding: "sliding 30s linear infinite",
       },
