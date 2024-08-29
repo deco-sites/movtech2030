@@ -1,5 +1,6 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
+import type { ImageWidget, RichText } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import Icon, { AvailableIcons } from "../components/ui/Icon.tsx";
 
 export interface CTA {
   id?: string;
@@ -8,75 +9,69 @@ export interface CTA {
   outline?: boolean;
 }
 
-export interface Props {
-  /**
-   * @format rich-text
-   * @default Click here to tweak this text however you want.
-   */
-  title?: string;
-  /**
-   * @default This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.
-   */
-  description?: string;
-  image?: ImageWidget;
-  placement?: "left" | "right";
-  cta?: CTA[];
+interface Socials {
+  url:string;
+  src: AvailableIcons;
+  alt?: string;
+  outline?: boolean;
 }
 
-const PLACEMENT = {
-  left: "flex-col text-left lg:flex-row-reverse",
-  right: "flex-col text-left lg:flex-row",
-};
+export interface Props {
+ 
+  title?: RichText;
+  description?: RichText;
+  peopleImage: ImageWidget;
+  backGroundImage?:ImageWidget;
+  cta?: CTA[];
+  navigation?: {buttons: Socials[]};
+}
+
 
 export default function HeroFlats({
   title = "Click here to tweak this text however you want.",
   description =
     "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-  image,
-  placement = "left",
-  cta = [
+  peopleImage,
+  backGroundImage,
+    cta = [
     { id: "change-me-1", href: "/", text: "Change me", outline: false },
     { id: "change-me-2", href: "/", text: "Change me", outline: true },
   ],
+  navigation = {
+    
+    buttons: [
+      { url: "#", src: "Bars3" , alt: "Icon 1", outline: false },
+      { url: "#", src: "Bars3" , alt: "Icon 1", outline: false },
+    ],
+  },
 }: Props) {
   return (
-    <nav class="lg:container lg:mx-auto mx-4">
-      <div class="flex flex-col items-center gap-8">
+    <nav class={`lg:container lg:mx-auto mx-4 `}>
+
+      <div class={`flex flex-col items-center gap-8 bg-center   bg-[length:1000px_700px] bg-no-repeat `} style={{backgroundImage: `url(${backGroundImage})`, }}>
+      <div class="absolute inset-0 mt-24 bg-gradient-to-t from-white to-transparent opacity-100"></div>
+
         <div
-          class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 ${
-            image
-              ? PLACEMENT[placement]
-              : "flex-col items-center justify-center text-center"
-          } lg:py-36 gap-12 md:gap-20 items-center`}
-        >
-          {image && (
-            <Image
-              width={640}
-              class="w-full lg:w-1/2 object-fit"
-              sizes="(max-width: 640px) 100vw, 30vw"
-              src={image}
-              alt={image}
-              decoding="async"
-              loading="lazy"
-            />
-          )}
+          class={`flex w-full xl:container xl:mx-auto py-10 mx-2 md:mx-10 z-10 flex-col items-center justify-center text-center
+            gap-12 md:gap-20 items-center`}>
+          
           <div
-            class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
-              image
-                ? "lg:w-1/2 lg:max-w-xl"
-                : "flex flex-col items-center justify-center lg:max-w-3xl"
-            }`}
+            class={`mx-2  lg:mx-auto lg:px-10 lg:w-full space-y-4 gap-4 flex flex-col items-center justify-center `}
           >
+            <Image src={peopleImage} width={1000} height={290}/>
             <div
-              class="inline-block lg:text-[80px] text-4xl leading-none font-medium"
+              class="inline-block lg:text-[44px] text-4xl leading-none font-medium"
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
             >
             </div>
-            <p class="text-lg md:text-md leading-[150%]">
-              {description}
-            </p>
+            <div class="text-lg md:text-[16px] leading-[150%]"
+              dangerouslySetInnerHTML={{
+                __html: description,
+              }}
+            >              
+            </div>
             <div class="flex items-center gap-3">
               {cta?.map((item) => (
                 <a
@@ -84,7 +79,7 @@ export default function HeroFlats({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary ${
+                  class={`font-normal btn btn-primary text-[20px] text-[#EBFFFD] ${
                     item.outline && "btn-outline"
                   }`}
                 >
@@ -92,6 +87,20 @@ export default function HeroFlats({
                 </a>
               ))}
             </div>
+            <ul class="flex gap-3">
+            {navigation.buttons?.map((item) => (
+              <a
+                key={item?.url}
+                href={item?.url ?? "#"}
+                target={item?.url.includes("http") ? "_blank" : "_self"}
+                class={`font-normal btn btn-primary fill-[#EBFFFD] ${
+                  item.outline && "btn-outline"
+                }`}
+              >
+                <Icon id={item.src} size={24} strokeWidth={0.1}/>
+              </a>
+            ))}
+          </ul>
           </div>
         </div>
       </div>

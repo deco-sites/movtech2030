@@ -6,6 +6,43 @@
       "__resolveType": "Header"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p><span style=\"color: rgb(0, 172, 191)\">Um setor de tecnologia forte e inclusivo é</span> construído pela conexão entre talentos e oportunidades.</p>",
+        "description": "<p><span>O Movimento Tech 2030 é uma coalizão de organizações que otimiza recursos e investimentos para escalar impactos e promover conhecimento, formação e geração de renda em tecnologia. Nós expandimos possibilidades gerando oportunidade para gente talentosa. Afinal, o principal poder da tecnologia não é substituir pessoas. É qualificá-las para potencializar o que elas tem de insubstituível.</span></p>",
+        "cta": [
+          {
+            "id": "1",
+            "href": "#",
+            "text": "FAÇA PARTE DO MOVIMENTO",
+            "outline": false
+          }
+        ],
+        "peopleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/acdfcff6-192f-4fd2-837b-a71814eb9d5a",
+        "backGroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/06c8bd01-49a6-402d-b4d8-b9ecb1da1e57",
+        "navigation": {
+          "buttons": [
+            {
+              "src": "Linkedin",
+              "url": "#",
+              "alt": "linkedin"
+            },
+            {
+              "src": "Facebook",
+              "url": "#",
+              "alt": "facebook"
+            },
+            {
+              "src": "Twitter",
+              "url": "#",
+              "alt": "twitter"
+            }
+          ]
+        }
+      }
+    },
+    {
       "__resolveType": "Footer"
     }
   ],

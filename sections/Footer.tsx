@@ -2,7 +2,7 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon, { AvailableIcons } from "../components/ui/Icon.tsx";
 
-export interface Socials {
+ interface Socials {
   url:string;
   src: AvailableIcons;
   alt?: string;

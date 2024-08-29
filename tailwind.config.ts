@@ -7,6 +7,10 @@ export default {
   theme: {
     container: { center: true },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'], // Custom font for sans-serif
+       
+      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },
