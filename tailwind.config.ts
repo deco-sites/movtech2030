@@ -8,9 +8,9 @@ export default {
     container: { center: true },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'], // Custom font for sans-serif
-        serif: ['Merriweather', 'serif'], // Custom font for serif
-        mono: ['Fira Code', 'monospace'], // Custom font for monospace
+        sans: ['Inter', 'sans-serif'], 
+        serif: ['Merriweather', 'serif'],
+        mono: ['Fira Code', 'monospace'], 
       },
       fontWeight: 700,
       animation: {
