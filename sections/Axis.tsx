@@ -2,9 +2,18 @@ import { RichText } from "apps/admin/widgets.ts";
 import Icon from "site/components/ui/Icon.tsx";
 import { AvailableIcons } from "site/components/ui/Icon.tsx";
 
+/**  
+ * @title {{{subTitle}}}
+*/
+export interface AxisInter{
+    icon?: AvailableIcons;
+    subTitle?: string;
+    description?: string;
+}
+
 export interface Props {
     title?:RichText,
-    axis?: {icon?: AvailableIcons ,subTitle?: string, description?: string}[]
+    axis?: AxisInter[]
 }
 
 export default function Axis({
