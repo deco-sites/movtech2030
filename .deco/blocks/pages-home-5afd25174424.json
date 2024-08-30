@@ -90,6 +90,30 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Axis.tsx",
+        "title": "<p><span style=\"color: rgb(255, 255, 255)\">A nossa atuação gira em torno de três eixos: r</span><strong><span style=\"color: rgb(255, 255, 255)\">ede, conhecimento e projetos.</span></strong></p>",
+        "axis": [
+          {
+            "icon": "Rede",
+            "subTitle": "Rede",
+            "description": "Conectar pessoas e organizações que fazem parte do movimento com aqueles que compõem o ecossistema de tecnologia, sempre com foco na expansão."
+          },
+          {
+            "icon": "Brain",
+            "subTitle": "Conhecimento",
+            "description": "Produzir conhecimento através de eventos, pesquisas e outras atividades que fomentem a rede, trazendo a educação como o principal vetor de transformação social."
+          },
+          {
+            "icon": "Notebook",
+            "subTitle": "Projetos",
+            "description": "O meio pelo qual executamos ações fundamentais para alcançar o impacto desejado."
+          }
+        ]
+      }
+    },
+    {
       "__resolveType": "Footer"
     }
   ],
