@@ -43,7 +43,7 @@ export default function Footer({
   },
 }: Nav) {
   return (
-    <nav class="drawer drawer-end lg:flex hidden ">
+    <nav class="drawer drawer-end lg:flex hidden border-t-[1px] border-primary ">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}

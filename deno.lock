@@ -9,6 +9,7 @@
       "jsr:@deco/inspect-vscode@0.2.1": "jsr:@deco/inspect-vscode@0.2.1",
       "jsr:@deco/warp@^0.3.6": "jsr:@deco/warp@0.3.6",
       "jsr:@deno/cache-dir@0.10.1": "jsr:@deno/cache-dir@0.10.1",
+      "jsr:@deno/graph@^0.73.1": "jsr:@deno/graph@0.73.1",
       "jsr:@hono/hono@^4.5.4": "jsr:@hono/hono@4.5.9",
       "jsr:@luca/esbuild-deno-loader@0.10.3": "jsr:@luca/esbuild-deno-loader@0.10.3",
       "jsr:@std/assert@^0.213.1": "jsr:@std/assert@0.213.1",
@@ -157,7 +158,10 @@
         ]
       },
       "@deco/deno-ast-wasm@0.5.0": {
-        "integrity": "19b5b92803a21e4ad2dde1b44b0f3d3bad6931cb56c421be083595f5c3729c92"
+        "integrity": "19b5b92803a21e4ad2dde1b44b0f3d3bad6931cb56c421be083595f5c3729c92",
+        "dependencies": [
+          "npm:@swc/wasm@1.3.76"
+        ]
       },
       "@deco/durable@0.5.3": {
         "integrity": "ed939fa140f0a4c7a21c3a622e5bdf21a93cb824d7c44a098dcad9b7315e4561"
@@ -175,11 +179,15 @@
       "@deno/cache-dir@0.10.1": {
         "integrity": "30f0a3b975df62adebd859a56f285873c56c6e68190e4370c7a539c6664559ad",
         "dependencies": [
+          "jsr:@deno/graph@^0.73.1",
           "jsr:@std/fmt@^0.223",
           "jsr:@std/fs@^0.223",
           "jsr:@std/io@^0.223",
           "jsr:@std/path@^0.223"
         ]
+      },
+      "@deno/graph@0.73.1": {
+        "integrity": "cd69639d2709d479037d5ce191a422eabe8d71bb68b0098344f6b07411c84d41"
       },
       "@hono/hono@4.5.9": {
         "integrity": "47f561e67aedbd6d1e21e3a1ae26c1b80ffdb62a51c161d502e75bee17ca40af"
@@ -2484,6 +2492,7 @@
     "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.56.1/website/components/Image.tsx": "7da0d5f7bfb6a9e58f087ae0f5ed26f68e838acb5d7c93ab47796cc8fdb2b90e",
     "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.56.1/website/components/Seo.tsx": "281b989f6b45fbaa30e0d8e6f842f5ac6be605f6a779ec6811574d080805d974",
     "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.56.1/website/components/Theme.tsx": "0fa0a533eb02ab192d38d78d0021695c9007a1316bee26aee9f9425d24f7f9e0",
+    "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.56.1/website/components/Video.tsx": "b9af24a26927fd0e60a9ff6019b59f3259524bc8d29941a37d3f3501a08418d3",
     "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.56.1/website/components/_Controls.tsx": "33691de39026b64ea37607d89b24403fb9f67b502295da340cee92647ca0e8c0",
     "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.56.1/website/components/_seo/Discord.tsx": "b1def0cf005483532e0d2fca65d56e90bfcfed28727da6e22733ef155b60fb23",
     "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.56.1/website/components/_seo/Facebook.tsx": "6bd0ba0d3407c2da0a845c9e5a23d563db84f8dc7458c011db6eea5deca97b85",
@@ -2583,6 +2592,7 @@
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.90.2/blocks/index.ts": "3b08726431df325491b9a7cf0344db91700f52fe720f2e55c3877fda977f0fcf",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.90.2/blocks/loader.ts": "06941eae1cecf14ece236eadbaaa0501f43b20d25231f682b89d58a19f5b5cec",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.90.2/blocks/matcher.ts": "8825b460d1aefd2a3751418c9ea4e37351ec35205e5238ee8c016da4e4681289",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.90.2/blocks/mod.ts": "ad9ed63da5b49d3145cc673d600c72287c91e7a0024422715f98cf870b2f2496",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.90.2/blocks/page.tsx": "307a5fecea1d1de8a5c2832650018bc07a0d2432248e42d95fce47a14cbb1011",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.90.2/blocks/propsLoader.ts": "e8e65dc51f8e0c3a903334302b922e3c7be321badeb7a37d92d6059501df2b93",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.90.2/blocks/section.ts": "e13da47df754cdb87291c464a626a97aeb9b12da47106270f52056c802c12596",

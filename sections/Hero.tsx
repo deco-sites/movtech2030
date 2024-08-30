@@ -49,7 +49,7 @@ export default function HeroFlats({
     <nav class={`lg:container lg:mx-auto mx-4 `}>
 
       <div class={`flex flex-col items-center gap-8 bg-center   bg-[length:1000px_700px] bg-no-repeat `} style={{backgroundImage: `url(${backGroundImage})`, }}>
-      <div class="absolute inset-0 mt-24 bg-gradient-to-t from-white to-transparent opacity-100"></div>
+      <div class="absolute inset-0 mt-24 h-[500px] bg-gradient-to-t from-white to-transparent opacity-100"></div>
 
         <div
           class={`flex w-full xl:container xl:mx-auto py-10 mx-2 md:mx-10 z-10 flex-col items-center justify-center text-center
@@ -106,4 +106,9 @@ export default function HeroFlats({
       </div>
     </nav>
   );
+}
+
+
+export function LoadingFallback () {
+  return <div>loading...</div>
 }

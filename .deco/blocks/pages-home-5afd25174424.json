@@ -43,6 +43,14 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Manifest.tsx",
+        "video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/9e284e6d-fc8a-41b2-b14b-f3fb4364bd33",
+        "title": "Nosso Manifesto"
+      }
+    },
+    {
       "__resolveType": "Footer"
     }
   ],
