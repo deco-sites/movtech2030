@@ -1,5 +1,4 @@
 import type  { VideoWidget } from "apps/admin/widgets.ts";
-import Video from "apps/website/components/Video.tsx";
 interface Props {
     title?: string;
     video: VideoWidget;

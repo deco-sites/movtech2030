@@ -48,12 +48,12 @@ export default function HeroFlats({
   return (
     <nav class={`lg:container lg:mx-auto mx-4 `}>
 
-      <div class={`flex flex-col items-center gap-8 bg-center   bg-[length:1000px_700px] bg-no-repeat `} style={{backgroundImage: `url(${backGroundImage})`, }}>
-      <div class="absolute inset-0 mt-24 h-[500px] bg-gradient-to-t from-white to-transparent opacity-100"></div>
+      <div class={`flex flex-col items-center gap-8 bg-top  bg-[length:58rem_38rem] bg-no-repeat `} style={{backgroundImage: `url(${backGroundImage})`, }}>
+      <div class="absolute inset-0 mt-24 h-[37.5rem] bg-gradient-to-t from-white to-transparent opacity-100"></div>
 
         <div
           class={`flex w-full xl:container xl:mx-auto py-10 mx-2 md:mx-10 z-10 flex-col items-center justify-center text-center
-            gap-12 md:gap-20 items-center`}>
+            gap-12 md:gap-20 `}>
           
           <div
             class={`mx-2  lg:mx-auto lg:px-10 lg:w-full space-y-4 gap-4 flex flex-col items-center justify-center `}
@@ -66,7 +66,7 @@ export default function HeroFlats({
               }}
             >
             </div>
-            <div class="text-lg md:text-[16px] leading-[150%]"
+            <div class="text-lg md:text-md leading-[150%]"
               dangerouslySetInnerHTML={{
                 __html: description,
               }}
@@ -79,7 +79,7 @@ export default function HeroFlats({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary text-[20px] text-[#EBFFFD] ${
+                  class={`font-normal btn btn-primary text-xl text-[#EBFFFD] ${
                     item.outline && "btn-outline"
                   }`}
                 >

@@ -51,6 +51,45 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/WhoWeAre.tsx",
+        "IWPs": [
+          {
+            "placement": "left",
+            "title": "Quando olhamos para o passado percebemos que:",
+            "description": "Nenhuma das maiores empresas do mundo era de tecnologia. Atualmente, de acordo com a lista Global 500 da Fortune, dentre as 10 maiores empresas do mundo, mais da metade são de tecnologia. O Brasil não ficou de fora dessa revolução que transformou a maneira como interagimos com as pessoas, objetos e com o mundo. É nítido como o nosso dia a dia é impactado pela tecnologia.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/ef66f2c3-24a2-4b61-856c-81ed8c8c34f5/movTechPic1.jpeg",
+            "disableSpacing": {
+              "top": true,
+              "bottom": true
+            }
+          },
+          {
+            "placement": "right",
+            "title": "A tecnologia deixou de ser um setor isolado dentro das empresas, para se tornar:",
+            "description": "Transversal, presente em todas as áreas, transformando e ressignificando as carreiras. É por isso que, quando pensamos em profissões do futuro e em gerar oportunidades para gente talentosa, pensamos necessariamente em tecnologia. Não existe carreira de sucesso no futuro sem que haja interação com tecnologia.",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e84af7ab-f9ff-46d6-a940-4f49213ebec9/movTech2030pic2.jpeg",
+            "disableSpacing": {
+              "top": true,
+              "bottom": true
+            }
+          }
+        ],
+        "imageLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/b4377d86-77f5-46b2-ae02-91d85562dd8c",
+        "title": "Quem Somos?",
+        "description": "O Movimento Tech 2030 é uma rede de organizações que une forças, recursos e investimentos para promover a inclusão de pessoas de baixa renda e historicamente sub-representadas no setor de tecnologia.",
+        "cta": [
+          {
+            "id": "1",
+            "href": "#",
+            "text": "FAÇA PARTE DO MOVIMENTO",
+            "outline": false
+          }
+        ]
+      }
+    },
+    {
       "__resolveType": "Footer"
     }
   ],
