@@ -10,7 +10,7 @@ export default function Manifest({
     video 
 }: Props){
     return(
-        <div class={"flex flex-col items-center py-16 gap-[32px] py-[40px] lg:py-[80px]"}>
+        <div class={"flex flex-col items-center py-16 gap-[32px] py-[40px] lg:py-[80px] px-[20px] lg:px-0"}>
             <h1 class={"text-[40px] text-secondary font-bold"}>{title}</h1>
             <video width={796} height={447} controls class={"rounded-[16px]"} >
                 <source src={video} type="video/mp4"/>
