@@ -40,7 +40,9 @@ export default function Pillars({
             <div class={`flex flex-col items-center lg:items-start bg-neutral border-[1px] border-primary p-8 gap-8 rounded-lg max-w-[43.125rem]`}>
                 {pillars.map((item) => (
                   <div class={`flex flex-col text-center lg:text-start items-center lg:flex-row gap-6 justify-center`}>
-                        <Icon id="Correct" size={12} stroke-width={0.1} class={`bg-primary rounded-full w-12 h-12 `}/>
+                    <div class={"bg-primary text-white rounded-full p-2"}>
+                        <Icon id="Check" size={24} />
+                    </div>
                         <div class={`text-xl`} 
                     dangerouslySetInnerHTML={{
                         __html: item.pillar

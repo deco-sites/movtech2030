@@ -40,7 +40,7 @@ export type AvailableIcons =
   | "Truck"
   | "Twitter"
   | "User"
-  | "Correct"
+  | "Check"
   | "WhatsApp"
   | "XMark"
   | "Zoom"
