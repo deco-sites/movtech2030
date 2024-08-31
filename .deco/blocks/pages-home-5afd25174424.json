@@ -114,6 +114,35 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Pillars.tsx",
+        "cta": [
+          {
+            "href": "#",
+            "text": "Ler Mais"
+          },
+          {
+            "href": "#",
+            "text": "FAÇA PARTE DO MOVIMENTO"
+          }
+        ],
+        "pillars": [
+          {
+            "pillar": "<p><strong><span>Despertar</span></strong><span> interesse pela carreira em tecnologia.</span></p>"
+          },
+          {
+            "pillar": "<p><strong><span>Capacitar</span></strong><span> talentos para as profissões do futuro.</span></p>"
+          },
+          {
+            "pillar": "<p><strong><span>Empregar</span></strong><span> profissionais de perfis historicamente sub-representados com a finalidade de promover inclusão, equidade e transformação social.</span></p>"
+          }
+        ],
+        "title": "<p><span>Dentro desses eixos, as ações são guiadas por três pilares: </span><strong><span>despertar</span></strong><span>, </span><strong><span>capacitar</span></strong><span> e </span><strong><span>empregar</span></strong><span>.</span></p>",
+        "paragraph": "<p>Dessa <strong>maneira impulsionamos novas carreiras profissionais em tecnologia</strong> e fomentamos <strong>conhecimento, formação e geração de renda enquanto ferramentas de empoderamento,</strong> desde a educação básica até a formação e empregabilidade.<br><br><strong>A potência tecnológica que o Brasil será em 2030 é construída hoje e de forma coletiva. Quer participar dessa construção?</strong></p>"
+      }
+    },
+    {
       "__resolveType": "Footer"
     }
   ],
