@@ -21,11 +21,12 @@ export interface Props {
     cta?: CTA[];
 }
 
+const pillarPlaceholder:Pillar = {pillar: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero."}
 
 export default function Pillars({
     title = "Type your title here",
-    pillars = [{pillar: "asas"}],
-    paragraph = "",
+    pillars = [pillarPlaceholder, pillarPlaceholder, pillarPlaceholder],
+    paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec felis eu libero vestibulum malesuada. Cras malesuada neque sit amet lorem suscipit, a luctus elit convallis. Integer tincidunt, odio ac lacinia aliquam, purus ipsum gravida urna, vitae elementum justo urna nec nisl",
     cta = [ 
         { id: "change-me-1", href: "/", text: "Change me", outline: false },
         { id: "change-me-1", href: "/", text: "Change me", outline: false },
