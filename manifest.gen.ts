@@ -9,10 +9,8 @@ import * as $$$$$$1 from "./sections/BlogPosts.tsx";
 import * as $$$$$$2 from "./sections/Faq.tsx";
 import * as $$$$$$3 from "./sections/Footer.tsx";
 import * as $$$$$$4 from "./sections/Header.tsx";
-import * as $$$$$$16 from "./sections/hero-1.tsx";
-import * as $$$$$$17 from "./sections/hero-2.tsx";
 import * as $$$$$$5 from "./sections/Hero.tsx";
-import * as $$$$$$18 from "./sections/hero2.tsx";
+import * as $$$$$$16 from "./sections/hero2.tsx";
 import * as $$$$$$6 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$7 from "./sections/InTheMedia.tsx";
 import * as $$$$$$8 from "./sections/Logos.tsx";
@@ -31,10 +29,8 @@ const manifest = {
     "site/sections/Faq.tsx": $$$$$$2,
     "site/sections/Footer.tsx": $$$$$$3,
     "site/sections/Header.tsx": $$$$$$4,
-    "site/sections/hero-1.tsx": $$$$$$16,
-    "site/sections/hero-2.tsx": $$$$$$17,
     "site/sections/Hero.tsx": $$$$$$5,
-    "site/sections/hero2.tsx": $$$$$$18,
+    "site/sections/hero2.tsx": $$$$$$16,
     "site/sections/ImageWithParagraph.tsx": $$$$$$6,
     "site/sections/InTheMedia.tsx": $$$$$$7,
     "site/sections/Logos.tsx": $$$$$$8,
