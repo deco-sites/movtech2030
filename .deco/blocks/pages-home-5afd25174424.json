@@ -360,6 +360,12 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Faq.tsx"
+      }
+    },
+    {
       "__resolveType": "Footer"
     }
   ],
