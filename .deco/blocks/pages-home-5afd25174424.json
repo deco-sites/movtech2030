@@ -292,6 +292,19 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PartnersTestimonials.tsx",
+        "cta": [
+          {
+            "href": "#",
+            "text": "FAÇA PARTE DO MOVIMENTO"
+          }
+        ],
+        "title": "O que dizem nossos parceiros?x`"
+      }
+    },
+    {
       "__resolveType": "Footer"
     }
   ],
