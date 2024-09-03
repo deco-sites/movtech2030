@@ -1,0 +1,48 @@
+{
+  "name": "Impacto",
+  "path": "/impacto",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Impact.tsx",
+        "title": "Nosso Impacto",
+        "text": "<p><span>Movimentamos </span><strong><span>+R$12MM </span></strong><span>para transformar a vida de </span><strong><span>+1M</span></strong><span> pessoas através da educação e da tecnologia.</span></p>",
+        "impacts": [
+          {
+            "title": "+1M",
+            "text": "De jovens e adolescentes alcançados através dos projetos que apoiamos."
+          },
+          {
+            "title": "+50",
+            "text": "De organizações comprometidas em garantir a execução de ações de Responsabilidade Social Corporativa (RSC)."
+          },
+          {
+            "title": "+5.000",
+            "text": "Empregos ocupados na área de tecnologia por meio dos nossos projetos."
+          },
+          {
+            "title": "+100MM",
+            "text": "De reais por ano em salários, viabilizando o consumo e contribuindo para movimentar a economia do país."
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
