@@ -7,6 +7,9 @@ export interface CTA {
   outline?: boolean;
 }
 
+/**
+ * @title {{{title}}}
+ */
 export interface Question {
   title: string;
   /** @format rich-text */
@@ -15,7 +18,6 @@ export interface Question {
 
 export interface Props {
   title?: string;
-
   questions?: Question[];
 }
 
@@ -60,22 +62,22 @@ export default function BlogPosts({
             <details class="group  ">
               <summary class="text-lg border-primary items-center  border my-2 rounded-[4px]  text-info bg-primary cursor-pointer py-3 px-5 flex group-open:bg-info group-open:text-primary transition-all  ">
                 <span class="flex-auto font-bold text-sm lg:text-xl">{question.title}</span>
-                <span class="flex text-info transition group-open:hidden">
+                <span class="flex-none text-info transition group-open:hidden">
                 <Icon id="Plus" width={20} height={10}/>
                 </span>
                 <span class="hidden text-primary transition group-open:flex">
                 <Icon id="Minus" width={10} height={5}/>
                 </span>
               </summary>
-              <p
+              <div
                 class="leading-relaxed border-primary  border my-5 rounded-[4px] p-8 bg-primary group-open:animate-fadeIn italic group-open:bg-info text-accent text-sm lg:text-xl trasition-all"
                 dangerouslySetInnerHTML={{ __html: question.answer }}
               >
-              </p>
+              </div>
             </details>  
           ))}
         </div>
-      </div>
+      </div>  
     </div>
   );
 }

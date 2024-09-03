@@ -362,7 +362,30 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Faq.tsx"
+        "__resolveType": "site/sections/Faq.tsx",
+        "title": "Perguntas Frequentes",
+        "questions": [
+          {
+            "title": "O que é o Movimento Tech 2030 e qual é o seu propósito?",
+            "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">O Movimento Tech 2030 é uma rede que otimiza recursos e investimentos para amplificar impactos e resultados através da inclusão produtiva no setor tecnológico.&nbsp;</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">Nosso objetivo é promover a inclusão de pessoas de baixa renda e historicamente sub-representadas no setor e fomentar novas carreiras profissionais em tecnologia.</span></p>"
+          },
+          {
+            "title": "Como posso colaborar com o Movimento?",
+            "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">Para demonstrar seu interesse em colaborar com o Movimento Tech 2030, clique aqui e preencha este </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://forms.gle/Rq1pifrfkEsnP9Vu7\"><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\">formulário</span></u></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">. A partir dele você receberá todas informações sobre como pode estar mais perto da rede.</span></p>"
+          },
+          {
+            "title": "Quais são os projetos ou iniciativas atuais do Movimento Tech 2030?",
+            "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">Atualmente apoiamos a</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maratona.tech/\"><strong><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\"> Maratona Tech</span></u></strong></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\"> maior Olimpíada de Tecnologia do país, o </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://potenciatech.com.br/\"><strong><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\">Potência Tech</span></u></strong></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">, uma das maiores plataformas do Brasil em formação e empregabilidade em tech, o</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://portal.ciee.org.br/quero-contratar/impulso-digital/\"><strong><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\"> Impulso Digital</span></u></strong></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">, que com uma educação alinhada à realidade do mercado tem ambição de ser o melhor programa de aprendizagem de competências digitais do Brasil (Jovem Aprendiz) e o </span><strong><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">Conexão Futuro</span></strong><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">, um espaço para interação entre estudantes que se destacam em projetos nacionais de Educação.<br><br>Enquanto isso, continuamos trabalhando para ampliar o portfólio de projetos e iniciativas.</span></p>"
+          },
+          {
+            "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">O Movimento Tech 2030 não oferece capacitações de forma direta, nós apoiamos projetos que realizam cursos e treinamentos gratuitos em tecnologia com foco em áreas de alta demanda como programação, desenvolvimento web, análise de dados e inteligência artificial.<br><br>Esses projetos também possibilitam ao público o acesso a bolsas de estudo, doação de equipamentos e materiais didáticos e capacitação de professores. Acesse a página Projetos e Iniciativas para saber mais.</span></p>",
+            "title": "O Movimento Tech 2030 oferece algum tipo de treinamento ou capacitação?"
+          },
+          {
+            "title": "Como posso entrar em contato com o para mais informações?",
+            "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">Nos envie um e-mail através do endereço </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:contato@movtech.org\"><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\">contato@movtech.org</span></u></a></p>"
+          }
+        ]
       }
     },
     {
