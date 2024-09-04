@@ -37,6 +37,65 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/ImpactsTestiomonials.tsx",
+        "title": "Mais que números, impactos transformadores de uma ponta a outra:",
+        "testiomonialsVideos": [
+          {
+            "placement": "left",
+            "text": "\"Os alunos podem despertar bastante interesse sobre a área da tecnologia, abrir portas para novas profissões que eles possam ser no futuro.\"",
+            "personName": "Sarah Alves",
+            "aboutPerson": "Medalhista de ouro na Maratona Tech",
+            "video": "https://www.youtube.com/embed/2I9osBwktcQ"
+          },
+          {
+            "placement": "right",
+            "personName": "Jaiane Saiara, 15 anos ",
+            "video": "https://www.youtube.com/embed/sw067zWTZsc",
+            "aboutPerson": "Medalhista de ouro na Maratona Tech",
+            "text": "\"Superou minhas expectativas, tanto pela oportunidade que a Maratona tem de incentivar os jovens a estudar, a pensar nessa área de tecnologia e todas as outras.\""
+          },
+          {
+            "placement": "left",
+            "video": "https://www.youtube.com/embed/2I9osBwktcQ/t=65s",
+            "text": "\"Eu como professor fiquei muito satisfeito com o trabalho feito dentro da escola. A Maratona Tech traz outra visão para os alunos da tecnologia como recurso.\"",
+            "personName": "Leonardo Silva",
+            "aboutPerson": "Professor"
+          },
+          {
+            "placement": "right",
+            "video": "https://www.youtube.com/embed/0gCoy3tUZoo",
+            "text": "\"A tecnologia mudou muito o meu rumo porque eu estava perdido, mas depois que eu a conheci, sem dúvidas vou para a programação.\"",
+            "personName": "João Pedro Nascimento",
+            "aboutPerson": "Aluno participante do Maratona Tech"
+          }
+        ],
+        "subTitle": "Você também pode amplificar impactos e resultados por meio da educação tecnológica.",
+        "cta": {
+          "href": "#",
+          "text": "FAÇA PARTE DO MOVIMENTO"
+        },
+        "testimonialsText": [
+          {
+            "text": "\"Desde que comecei a explorar o mundo da tecnologia, sempre sonhei em fazer parte de um programa que capacita e empodera mulheres na área tech. E agora, esse sonho está se tornando realidade!\"",
+            "personName": "Eduarda Oliveira",
+            "aboutPerson": "Potência Tech"
+          },
+          {
+            "text": "\"Aprendi e pratiquei diversas áreas de desenvolvimento de software e hoje tenho certeza que posso somar em um ambiente de trabalho. Tenho a confiança para me desenvolver cada vez mais tecnicamente e socialmente e correr atrás dos meus sonhos. Me sinto grato pela oportunidade de participar do DTech que é uma parceria entre a Koru, Potência Tech e iFood. Espero que outras pessoas possam ter essa oportunidade, e, assim como eu, sejam impulsionadas para correr atrás do tão sonhado emprego na área de tecnologia.\"",
+            "personName": "Jonas Nascimento",
+            "aboutPerson": "Potência Tech"
+          },
+          {
+            "aboutPerson": "Potência Tech",
+            "text": "\"Durante o curso, mergulhei em Python, SQL, Power BI e estatística, adquirindo habilidades fundamentais para análise de dados. Através de projetos significativos, apliquei esses conhecimentos de maneira prática e tangível. Além da parte de hard skills, também tivemos instrutores de soft skills incríveis que nos ajudaram na melhoria do currículo e LinkedIn, para empregabilidade.\" ",
+            "personName": "Rafael Assis"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Footer"
       }
     }
