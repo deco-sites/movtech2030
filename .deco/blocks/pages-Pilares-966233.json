@@ -18,6 +18,60 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/SectionsList.tsx",
+        "cta": [
+          {
+            "href": "#",
+            "text": "FAÇA PARTE DO MOVIMENTO"
+          }
+        ],
+        "sections": [
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "title": "<p><strong><span>Despertar</span></strong><span> o interesse pela carreira em tecnologia</span></p>",
+              "description": "Só sonhamos com aquilo que conhecemos. Para que novos talentos tenham interesse em ingressar na área tech é necessário que primeiro saibam que isso é possível. Através de projetos ligados à educação básica, formação em tecnologia e acesso ao mercado de trabalho, apresentamos o setor tecnológico como oportunidade de carreira profissional.",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/ee397a83-df53-465a-a041-05446efadf46/pillarImage1.png",
+              "disableSpacing": {
+                "bottom": true,
+                "top": true
+              }
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "title": "<p><strong><span>Capacitar</span></strong><span> talentos para as profissões do presente e do futuro</span></p>",
+              "description": "Vivemos um momento em que a tecnologia é transversal, presente nas nossas vidas desde as ações mais simples às mais complexas. Portanto, quando falamos de desenvolvimento em qualquer área, é imprescindível falar em capacitação tecnológica de qualidade e acessível para todas as pessoas. Através de projetos focados na capacitação de talentos e desenvolvimento de habilidades digitais, buscamos garantir a qualificação do capital humano, não só para atender às necessidades do mercado, mas também para contribuir com o desenvolvimento do Brasil. \nPara fazer disso uma realidade, é essencial implementar iniciativas de formação em todos os níveis educacionais, de ponta a ponta. ",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/fedfeeb3-835a-4358-9148-83316ec6dbda/pillarImage2.png",
+              "disableSpacing": {
+                "top": true,
+                "bottom": true
+              },
+              "placement": "right"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph.tsx",
+              "title": "<p><strong><span>Empregar</span></strong><span> profissionais de perfis historicamente sub-representados</span></p>",
+              "description": "rganizações com equipes mais diversas melhoram o desempenho financeiro e desfrutam de níveis de inovação maiores que empresas menos diversas, de acordo com uma pesquisa do Boston Consulting Group. Considerando esse contexto, a diversidade, inerente ao público com o qual trabalhamos e a necessidade de democratização do setor tecnológico, buscamos gerar oportunidades e acelerar carreiras de pessoas talentosas com perfil historicamente sub-representado, com a finalidade de promover inclusão, equidade e transformação social.",
+              "disableSpacing": {
+                "top": true,
+                "bottom": true
+              },
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/637bf4c7-3cfe-4fbe-8ab5-7adc0c641ed5/pillarImage3.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "Footer"
       }
     }

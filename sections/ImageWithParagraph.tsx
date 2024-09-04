@@ -1,4 +1,4 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
+import type { ImageWidget, RichText } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface CTA {
@@ -10,7 +10,7 @@ export interface CTA {
 
 export interface Props {
   
-  title?: string;
+  title?: RichText;
   /** @format textarea */
   description?: string;
   image?: ImageWidget;
@@ -60,9 +60,10 @@ export default function ImageWithParagraph({
           />
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 text-center lg:text-left ">
-          <p class="text-2xl lg:text-4xl  leading-[54px] text-primary">
-            {title}
-          </p>
+          <div class="text-2xl lg:text-4xl  leading-[54px] text-accent "
+              dangerouslySetInnerHTML={{__html: title }}>
+            
+          </div>
           <p class=" text-md lg:text-xl leading-9">
             {description}
           </p>
