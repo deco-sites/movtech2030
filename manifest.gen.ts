@@ -19,9 +19,10 @@ import * as $$$$$$11 from "./sections/Manifest.tsx";
 import * as $$$$$$12 from "./sections/Partners.tsx";
 import * as $$$$$$13 from "./sections/PartnersTestimonials.tsx";
 import * as $$$$$$14 from "./sections/Pillars.tsx";
-import * as $$$$$$15 from "./sections/Testimonials.tsx";
-import * as $$$$$$16 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$17 from "./sections/WhoWeAre.tsx";
+import * as $$$$$$15 from "./sections/PillarsAbout.tsx";
+import * as $$$$$$16 from "./sections/Testimonials.tsx";
+import * as $$$$$$17 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$18 from "./sections/WhoWeAre.tsx";
 
 const manifest = {
   "sections": {
@@ -40,9 +41,10 @@ const manifest = {
     "site/sections/Partners.tsx": $$$$$$12,
     "site/sections/PartnersTestimonials.tsx": $$$$$$13,
     "site/sections/Pillars.tsx": $$$$$$14,
-    "site/sections/Testimonials.tsx": $$$$$$15,
-    "site/sections/Theme/Theme.tsx": $$$$$$16,
-    "site/sections/WhoWeAre.tsx": $$$$$$17,
+    "site/sections/PillarsAbout.tsx": $$$$$$15,
+    "site/sections/Testimonials.tsx": $$$$$$16,
+    "site/sections/Theme/Theme.tsx": $$$$$$17,
+    "site/sections/WhoWeAre.tsx": $$$$$$18,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,

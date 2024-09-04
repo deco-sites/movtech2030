@@ -1,0 +1,29 @@
+{
+  "name": "Pilares",
+  "path": "/pilares",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/PillarsAbout.tsx",
+        "text": "<p><span>A tecnologia está presente no cotidiano da grande maioria das pessoas, de diversas formas. No entanto, por mais democratizado que o acesso à tecnologia possa parecer, ainda há uma parcela significativa da população que não tem acesso aos caminhos e possibilidades que o setor tecnológico pode proporcionar.<br><br>Em um país de dimensões continentais como o Brasil, realidades distintas coexistem e expressam desigualdades que se refletem nas limitações de acesso à capacitação e, consequentemente, no acesso a oportunidades.&nbsp;<br><br>Enquanto a automação se tornou item indispensável em alguns lares e a inteligência artificial suscita suspeitas de superar a inteligência humana, milhares de jovens e adolescentes sequer contam com acesso à internet de qualidade e tem pouco ou nenhum contato com tecnologias atuais no dia a dia.<br><br>Diante desse cenário, o Movtech instituiu três pilares que conduzem todas as ações do movimento e desenham um novo caminho possível para o público alvo das ações, do primeiro passo à consolidação da caminhada no setor tecnológico:</span></p>"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
