@@ -25,7 +25,7 @@ export default function Project({
 } : Props) {
     return(
         <div class={`flex flex-col items-center text-center px-4 lg:px-40 gap-[3.25rem] lg:gap-[3.75rem]`}>
-            <h1 class={`text-sm lg:text-[1.75rem] py-5 px-[1.875rem] border-2 border-primary rounded-full`}>{title}</h1>
+            <h1 class={`text-sm lg:text-[1.75rem] uppercase tracking-wider py-5 px-[1.875rem] border-2 border-primary rounded-full`}>{title}</h1>
             <div class={`w-[21.875rem] h-[12.5rem] lg:w-[62.5rem]  lg:h-[35rem] bg-cover bg-center bg-no-repeat rounded-xl`} style={{backgroundImage: `url(${image})`}}>
                 <div class=" inset-0 h-full bg-gradient-to-t from-white to-transparent opacity-100"></div>
             </div>

@@ -11,20 +11,21 @@ import * as $$$$$$3 from "./sections/Footer.tsx";
 import * as $$$$$$4 from "./sections/Header.tsx";
 import * as $$$$$$5 from "./sections/Hero.tsx";
 import * as $$$$$$6 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$7 from "./sections/Impact.tsx";
-import * as $$$$$$8 from "./sections/ImpactsTestiomonials.tsx";
-import * as $$$$$$9 from "./sections/InTheMedia.tsx";
-import * as $$$$$$10 from "./sections/Logos.tsx";
-import * as $$$$$$11 from "./sections/Manifest.tsx";
-import * as $$$$$$12 from "./sections/Partners.tsx";
-import * as $$$$$$13 from "./sections/PartnersTestimonials.tsx";
-import * as $$$$$$14 from "./sections/Pillars.tsx";
-import * as $$$$$$15 from "./sections/PillarsAbout.tsx";
-import * as $$$$$$16 from "./sections/Project.tsx";
-import * as $$$$$$17 from "./sections/SectionsList.tsx";
-import * as $$$$$$18 from "./sections/Testimonials.tsx";
-import * as $$$$$$19 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$20 from "./sections/WhoWeAre.tsx";
+import * as $$$$$$7 from "./sections/ImageWithParagraph2.tsx";
+import * as $$$$$$8 from "./sections/Impact.tsx";
+import * as $$$$$$9 from "./sections/ImpactsTestiomonials.tsx";
+import * as $$$$$$10 from "./sections/InTheMedia.tsx";
+import * as $$$$$$11 from "./sections/Logos.tsx";
+import * as $$$$$$12 from "./sections/Manifest.tsx";
+import * as $$$$$$13 from "./sections/Partners.tsx";
+import * as $$$$$$14 from "./sections/PartnersTestimonials.tsx";
+import * as $$$$$$15 from "./sections/Pillars.tsx";
+import * as $$$$$$16 from "./sections/PillarsAbout.tsx";
+import * as $$$$$$17 from "./sections/Project.tsx";
+import * as $$$$$$18 from "./sections/SectionsList.tsx";
+import * as $$$$$$19 from "./sections/Testimonials.tsx";
+import * as $$$$$$20 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$21 from "./sections/WhoWeAre.tsx";
 
 const manifest = {
   "sections": {
@@ -35,20 +36,21 @@ const manifest = {
     "site/sections/Header.tsx": $$$$$$4,
     "site/sections/Hero.tsx": $$$$$$5,
     "site/sections/ImageWithParagraph.tsx": $$$$$$6,
-    "site/sections/Impact.tsx": $$$$$$7,
-    "site/sections/ImpactsTestiomonials.tsx": $$$$$$8,
-    "site/sections/InTheMedia.tsx": $$$$$$9,
-    "site/sections/Logos.tsx": $$$$$$10,
-    "site/sections/Manifest.tsx": $$$$$$11,
-    "site/sections/Partners.tsx": $$$$$$12,
-    "site/sections/PartnersTestimonials.tsx": $$$$$$13,
-    "site/sections/Pillars.tsx": $$$$$$14,
-    "site/sections/PillarsAbout.tsx": $$$$$$15,
-    "site/sections/Project.tsx": $$$$$$16,
-    "site/sections/SectionsList.tsx": $$$$$$17,
-    "site/sections/Testimonials.tsx": $$$$$$18,
-    "site/sections/Theme/Theme.tsx": $$$$$$19,
-    "site/sections/WhoWeAre.tsx": $$$$$$20,
+    "site/sections/ImageWithParagraph2.tsx": $$$$$$7,
+    "site/sections/Impact.tsx": $$$$$$8,
+    "site/sections/ImpactsTestiomonials.tsx": $$$$$$9,
+    "site/sections/InTheMedia.tsx": $$$$$$10,
+    "site/sections/Logos.tsx": $$$$$$11,
+    "site/sections/Manifest.tsx": $$$$$$12,
+    "site/sections/Partners.tsx": $$$$$$13,
+    "site/sections/PartnersTestimonials.tsx": $$$$$$14,
+    "site/sections/Pillars.tsx": $$$$$$15,
+    "site/sections/PillarsAbout.tsx": $$$$$$16,
+    "site/sections/Project.tsx": $$$$$$17,
+    "site/sections/SectionsList.tsx": $$$$$$18,
+    "site/sections/Testimonials.tsx": $$$$$$19,
+    "site/sections/Theme/Theme.tsx": $$$$$$20,
+    "site/sections/WhoWeAre.tsx": $$$$$$21,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,

@@ -11,9 +11,134 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Project.tsx",
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7f63edd6-a96d-4823-83cd-468d5fd02ea7/maratonaTech.png",
-        "text": "<p><span>A maior competição de tecnologia entre escolas do Brasil, realizada em parceria com a Associação Cactus.<br><br>Seu objetivo principal é </span><strong><span>despertar o interesse de estudantes pela tecnologia</span></strong><span>, independentemente de seu conhecimento prévio sobre a área ou recursos escolares. Alinhada com a Base Nacional Comum Curricular, é uma forma de conectar alunos da educação básica com oportunidades e possibilidades em tecnologia.</span></p>"
+        "__resolveType": "site/sections/SectionsList.tsx",
+        "title": "Projetos e Iniciativas",
+        "sections": [
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Project.tsx",
+              "title": "Maratona Tech",
+              "text": "<p>A maior competição de tecnologia entre escolas do Brasil, realizada em parceria com a Associação Cactus.</p><p>Seu objetivo principal é <strong>despertar o interesse de estudantes pela tecnologia</strong>, independentemente de seu conhecimento prévio sobre a área ou recursos escolares. Alinhada com a Base Nacional Comum Curricular, é uma forma de conectar alunos da educação básica com oportunidades e possibilidades em tecnologia.</p>",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7f63edd6-a96d-4823-83cd-468d5fd02ea7/maratonaTech.png",
+              "cta": {
+                "href": "https://maratona.tech/",
+                "text": "Conhecer o projeto"
+              }
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Project.tsx",
+              "text": "<p>Uma das maiores plataformas de <strong>formação e empregabilidade</strong> em tecnologia do Brasil. Até o momento, já distribuiu mais de 100 mil bolsas de estudo e empregou mais de 5 mil pessoas.</p>",
+              "title": "Potência Tech",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/a28c4b1a-b538-46ea-9c27-5756d88df0c8/PotenciaDigital.png",
+              "cta": {
+                "text": "Conhecer o projeto",
+                "href": "https://potenciatech.com.br/"
+              }
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Project.tsx",
+              "text": "<p>Programa de aprendizagem de competências digitais que alinha a educação à realidade do mercado. É o 1º primeiro do Brasil a garantir reforço e nivelamento de português, matemática e aulas de inglês. Além de oferecer o desenvolvimento de habilidades técnicas em tecnologia, a grade formativa também trabalha com os jovens habilidades como comunicação assertiva, desenvolvimento de autonomia, raciocínio lógico, capacidades analíticas e resolução de problemas.&nbsp;</p><p>Fruto de uma parceria entre CIEE e Ada Tech, o projeto conta ainda com o apoio do Movimento Tech e é uma maneira inovadora de <strong>atrair e capacitar Jovens Aprendizes</strong>.</p>",
+              "title": "Impulso Digital",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/c747e39d-edff-49b4-80d1-7f0827df9344/Ciee.png",
+              "cta": {
+                "text": "Conhecer o projeto",
+                "href": "https://portal.ciee.org.br/quero-contratar/impulso-digital/"
+              }
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Project.tsx",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/ef7ff157-060f-4ba1-a595-b48f90d63d7b/Captura-de-Tela-2024-08-20-as-21.02.59-1.png",
+              "title": "Conexão Futuro",
+              "text": "<p>Um espaço de interação e disseminação de conhecimento para estudantes que se engajam e se destacam em projetos nacionais de Educação. Realizado pela Associação Cactus em parceria com o Movtech, o projeto visa democratizar o acesso a oportunidades e potencializar talentos.</p>",
+              "cta": {
+                "href": "https://maratona.tech/conexao-futuro",
+                "text": "Conhecer Projeto"
+              }
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/Project.tsx",
+              "title": "Mira LC",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/3c6e8faf-f28c-4bb9-8982-8e6d250304e8/image-1.png",
+              "text": "<p>Este é um progama para fomentar o ecossistema de cofundadores técnicos no Brasil, onde talentos técnicos outliers são incentivados a montarem startups, ou fazerem parte de times fundadores. É o kick-start pra criação de uma comunidade que une profundidade técnica e empreendedorismo, comprometida com um futuro onde o Brasil é protagonista em Tecnologia.</p>",
+              "cta": {
+                "text": "Conhecer o projeto",
+                "href": "https://www.mira.lc/"
+              }
+            }
+          }
+        ],
+        "cta": [],
+        "sections2": [],
+        "disableBackGroundImage": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/SectionsList.tsx",
+        "title": "Eventos e pesquisas",
+        "text": "Seu projeto também pode receber o apoio do Movtech. Junte-se à rede e colabore para conectar talentos e oportunidades.",
+        "cta": [
+          {
+            "href": "#",
+            "text": "QUERO SER APOIADO PELO MOVIMENTO"
+          },
+          {
+            "text": "QUERO RECEBER AS OPORTUNIDADES DO MOVIMENTO",
+            "href": "#"
+          }
+        ],
+        "sections": [
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph2.tsx",
+              "title": "<p><strong><span>Futuros Possíveis - Pesquisa Endeavor</span></strong></p>",
+              "description": "Estudo realizado pela Endeavor Brasil sobre a atuação do ecossistema de inovação na resolução dos desafios de formar talentos em tecnologia no país. Ele apresenta um panorama geral de como organizações e empresas estão formando profissionais em tecnologia e propõe como melhorar e ampliar essas formações.",
+              "cta": {
+                "href": "https://endeavor.org.br/tecnologia/profissionais-de-tecnologia/",
+                "text": "Ler Mais"
+              },
+              "placement": "right",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/4852c6a8-6047-49e8-ab1d-41c7dd1b1d15/FuturosPossiveis.png",
+              "disableSpacing": {
+                "top": true,
+                "bottom": true
+              }
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/ImageWithParagraph2.tsx",
+              "title": "<p><strong><span>FEEP - Fórum Executivo de Educação Pública</span></strong></p>",
+              "description": "O FEEP é um evento onde grandes expoentes da educação e autoridades públicas se encontram para discutir as principais tendências da educação para os próximos anos. Palestrantes, expositores e dirigentes públicos se juntam para trocar experiências, fazer negócios e construir parcerias.",
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/5553df0e-1d80-40c4-8dc3-c371bcfaf2c2/feep.png",
+              "cta": {
+                "href": "https://feep2024.com.br/",
+                "text": "Ler mais"
+              },
+              "disableSpacing": {
+                "top": true,
+                "bottom": true
+              }
+            }
+          }
+        ],
+        "disableBackGroundImage": true
       }
     },
     {
