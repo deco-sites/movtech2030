@@ -1,0 +1,30 @@
+{
+  "name": "Projetos",
+  "path": "/projetos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Project.tsx",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7f63edd6-a96d-4823-83cd-468d5fd02ea7/maratonaTech.png",
+        "text": "<p><span>A maior competição de tecnologia entre escolas do Brasil, realizada em parceria com a Associação Cactus.<br><br>Seu objetivo principal é </span><strong><span>despertar o interesse de estudantes pela tecnologia</span></strong><span>, independentemente de seu conhecimento prévio sobre a área ou recursos escolares. Alinhada com a Base Nacional Comum Curricular, é uma forma de conectar alunos da educação básica com oportunidades e possibilidades em tecnologia.</span></p>"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
