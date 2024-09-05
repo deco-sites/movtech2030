@@ -56,7 +56,7 @@ export default function Partners({
             </div>
             <div class={`flex flex-col items-center gap-[3.75rem]`}>
                 <h2 class={`text-2xl lg:text-[2rem]`}>{partners?.subTitle}</h2>
-                <div class={`grid grid-cols-6 gap-[0.925rem] lg:gap-[2rem] items-center`}>
+                <div class={`flex flex-wrap justify-center px-4 lg:px-40 gap-[0.925rem] lg:gap-[2rem] items-center`}>
                     {partners?.sponsorsLogos?.map((item) => (
                         <Image
                         src={item.src || ""}
