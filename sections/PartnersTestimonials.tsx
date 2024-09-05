@@ -1,9 +1,12 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
+/**
+ * @title {{{name}}}
+ */
 interface Testimonial {
     name?: string;
-    partnerName?: string;
+    companyName?: string;
     avatar?: ImageWidget;
     text?: string;
 }
@@ -30,17 +33,17 @@ export default function PartnersTestimonials({
     title = "Type your title here",
     testimonials = [{
         name: "Pessoa X",
-        partnerName: "Coca Cola",
+        companyName: "Coca Cola",
         avatar: defaultUserIcon,
         text: defaultText,
     }, {
         name: "Pessoa Y",
-        partnerName: "Coca Cola",
+        companyName: "Coca Cola",
         avatar: defaultUserIcon,
         text: defaultText,
     }, {
         name: "Pessoa Z",
-        partnerName: "Coca Cola",
+        companyName: "Coca Cola",
         avatar: defaultUserIcon,
         text: defaultText,
     }],
@@ -61,10 +64,10 @@ export default function PartnersTestimonials({
                     className={`bg-white p-6 rounded-lg shadow-md flex flex-col`}
                     >
                         <p className="text-xl italic text-left mb-4">
-                            "{testimonial.text}"
+                            {testimonial.text}
                         </p>
                         <Image
-                            src={testimonial.avatar || ""}
+                            src={testimonial.avatar || defaultUserIcon}
                             width={40.72}
                             height={40.72}
                             class={`rounded-full lg:w-[67.5px] lg:h-[67.5px]`}
@@ -73,7 +76,7 @@ export default function PartnersTestimonials({
                             <h4 className="text-md font-bold">
                                 {testimonial.name}
                             </h4>
-                            <p className="text-md">{testimonial.partnerName}</p>
+                            <p className="text-md">{testimonial.companyName}</p>
                         </div>
                     </div>
                 ))}
@@ -83,10 +86,10 @@ export default function PartnersTestimonials({
                     className={`bg-white p-6 rounded-lg shadow-md flex flex-col`}
                     >
                         <p className="text-xl italic text-left mb-4">
-                            "{testimonials[2].text}"
+                            {testimonials[2].text}
                         </p>
                         <Image
-                            src={testimonials[2].avatar || ""}
+                            src={testimonials[2].avatar || defaultUserIcon}
                             width={40.72}
                             height={40.72}
                             class={`rounded-full lg:w-[67.5px] lg:h-[67.5px]`}
@@ -95,7 +98,7 @@ export default function PartnersTestimonials({
                             <h4 className="text-md font-bold">
                                 {testimonials[2].name}
                             </h4>
-                            <p className="text-md">{testimonials[2].partnerName}</p>
+                            <p className="text-md">{testimonials[2].companyName}</p>
                         </div>
                     </div>
             </div>
