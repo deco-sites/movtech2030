@@ -28,14 +28,14 @@ export default function SectionList({title, sections, text, cta, disableBackGrou
             {sections?.map((item) => <item.Component {...item.props}/>)}
             
             {text ? <h1 class={`text-2xl lg:text-[2rem] font-bold leading-9 px-4 lg:px-40`}>{text}</h1> : null}
-            <div class="flex flex-col items-center gap-10 lg:gap-[3.75rem]">
+            <div class="flex flex-col items-center px-4 gap-10 lg:gap-[3.75rem]">
               {cta?.map((item) => (
                 <a
                   key={item?.id}
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary text-xl text-[#EBFFFD] ${
+                  class={`font-normal btn btn-primary text-sm  lg:text-xl text-[#EBFFFD] ${
                     item.outline && "btn-outline"
                   }`}
                 >

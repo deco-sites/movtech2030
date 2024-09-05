@@ -39,7 +39,7 @@ export default function Project({
                   id={cta?.id}
                   href={cta?.href}
                   target={cta?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary text-xl text-[#EBFFFD] ${
+                  class={`font-normal btn btn-primary text-sm  lg:text-xl text-[#EBFFFD] ${
                     cta.outline && "btn-outline"
                   }`}
                 >

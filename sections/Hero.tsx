@@ -79,7 +79,7 @@ export default function HeroFlats({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary text-xl text-[#EBFFFD] ${
+                  class={`font-normal btn btn-primary text-sm  lg:text-xl text-[#EBFFFD] ${
                     item.outline && "btn-outline"
                   }`}
                 >

@@ -107,7 +107,7 @@ export default function PartnersTestimonials({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-info text-xl text-primary ${
+                  class={`font-normal btn btn-info text-sm  lg:text-xl text-primary ${
                     item.outline && "btn-outline"
                   }`}
                 >
