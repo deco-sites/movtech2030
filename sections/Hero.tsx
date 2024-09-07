@@ -110,5 +110,18 @@ export default function HeroFlats({
 
 
 export function LoadingFallback () {
-  return <div>loading...</div>
-}
+  return (
+  <div class={`flex flex-col animate-pulse items-center gap-8 mx-4 lg:mx-40 py-20`}>
+    <div class={`bg-gray-200   w-full h-72 rounded-3xl`}/>
+    <div class={`bg-gray-200 h-8 w-full rounded-full `}></div>
+    <div class={`bg-gray-200 h-6 w-[75%] rounded-full `}></div>
+    
+    <div class={`bg-gray-200 h-10 w-80 rounded-3xl`}/>
+    <div class={`flex flex-row gap-2`}>
+        <div class={`w-10 h-10 bg-gray-200 rounded-2xl`}/>
+        <div class={`w-10 h-10 bg-gray-200 rounded-2xl`}/>
+        <div class={`w-10 h-10 bg-gray-200 rounded-2xl`}/>
+    </div>
+  </div>
+
+)}
