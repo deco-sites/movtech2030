@@ -46,14 +46,15 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Manifest.tsx",
-        "video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/9e284e6d-fc8a-41b2-b14b-f3fb4364bd33",
-        "title": "Nosso Manifesto"
+        "title": "Nosso Manifesto",
+        "video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/9e284e6d-fc8a-41b2-b14b-f3fb4364bd33"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/WhoWeAre.tsx",
+        "title": "Quem Somos?",
         "IWPs": [
           {
             "placement": "left",
@@ -77,7 +78,6 @@
           }
         ],
         "imageLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/b4377d86-77f5-46b2-ae02-91d85562dd8c",
-        "title": "Quem Somos?",
         "description": "O Movimento Tech 2030 é uma rede de organizações que une forças, recursos e investimentos para promover a inclusão de pessoas de baixa renda e historicamente sub-representadas no setor de tecnologia.",
         "cta": [
           {
@@ -449,6 +449,25 @@
             "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">Nos envie um e-mail através do endereço </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:contato@movtech.org\"><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\">contato@movtech.org</span></u></a></p>"
           }
         ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Newsletter.tsx",
+        "title": "Assine a nossa Newsletter",
+        "emailInput": {
+          "placeholder": "Seu email",
+          "cta": {
+            "href": "#",
+            "text": "Inscrever-me"
+          }
+        },
+        "cta": {
+          "href": "#",
+          "text": "Fale Conosco"
+        },
+        "email": "contato@movtech.org"
       }
     },
     {

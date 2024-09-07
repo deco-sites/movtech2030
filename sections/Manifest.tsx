@@ -9,9 +9,9 @@ export default function Manifest({
     video 
 }: Props){
     return(
-        <div class={"flex flex-col items-center gap-[32px] py-[40px] lg:py-[80px] px-[20px] lg:px-0"}>
-            <h1 class={"text-[40px] text-secondary font-bold"}>{title}</h1>
-            <video width={796} height={447} controls class={"rounded-[16px]"} >
+        <div class={"flex flex-col items-center gap-8 py-10 lg:py-20 px-5 lg:px-0"}>
+            <h1 class={"text-[2.5rem] text-secondary font-bold"}>{title}</h1>
+            <video width={796} height={447} controls class={"rounded-2xl"} >
                 <source src={video} type="video/mp4"/>
 
             </video>
@@ -20,5 +20,10 @@ export default function Manifest({
 }
 
 export function LoadingFallback () {
-    return <div>loading...</div>
+    return (
+        <div class={`flex flex-col  animate-pulse items-center gap-8 mx-40 py-2`}>
+            <div class={`w-72 h-10 bg-gray-200`}/>
+            <div class={`w-[50rem] h-[28rem] bg-gray-200`}/>
+        </div>
+    )
   }

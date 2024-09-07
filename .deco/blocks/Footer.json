@@ -16,7 +16,7 @@
       },
       {
         "label": "Parceiros",
-        "url": "parceiros"
+        "url": "/#parceiros"
       },
       {
         "label": "Impacto",
@@ -32,7 +32,7 @@
       },
       {
         "label": "Mídia",
-        "url": "midia"
+        "url": "/#midia"
       }
     ],
     "buttons": [

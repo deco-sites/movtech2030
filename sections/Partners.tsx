@@ -39,7 +39,7 @@ export default function Partners({
     partners = {subTitle: "Type your sub title here", sponsorsLogos: IMGS_PLACEHODLER}
 } : Props) {
     return(
-        <div class={`flex flex-col gap-10 lg:gap-20 items-center text-center py-10 lg:py-[6.25rem]`}>
+        <div id={`parceiros`} class={`flex flex-col gap-10 lg:gap-20 items-center text-center py-10 lg:py-[6.25rem]`}>
             <h1 class={`text-2xl lg:text-5xl font-bold`}>{title}</h1>
             <div class={`flex flex-col items-center  gap-[3.75rem]`}>
                 <h2 class={`text-2xl lg:text-[2rem]`}>{sponsoringInstitutions?.subTitle}</h2>

@@ -17,15 +17,16 @@ import * as $$$$$$9 from "./sections/ImpactsTestiomonials.tsx";
 import * as $$$$$$10 from "./sections/InTheMedia.tsx";
 import * as $$$$$$11 from "./sections/Logos.tsx";
 import * as $$$$$$12 from "./sections/Manifest.tsx";
-import * as $$$$$$13 from "./sections/Partners.tsx";
-import * as $$$$$$14 from "./sections/PartnersTestimonials.tsx";
-import * as $$$$$$15 from "./sections/Pillars.tsx";
-import * as $$$$$$16 from "./sections/PillarsAbout.tsx";
-import * as $$$$$$17 from "./sections/Project.tsx";
-import * as $$$$$$18 from "./sections/SectionsList.tsx";
-import * as $$$$$$19 from "./sections/Testimonials.tsx";
-import * as $$$$$$20 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$21 from "./sections/WhoWeAre.tsx";
+import * as $$$$$$13 from "./sections/Newsletter.tsx";
+import * as $$$$$$14 from "./sections/Partners.tsx";
+import * as $$$$$$15 from "./sections/PartnersTestimonials.tsx";
+import * as $$$$$$16 from "./sections/Pillars.tsx";
+import * as $$$$$$17 from "./sections/PillarsAbout.tsx";
+import * as $$$$$$18 from "./sections/Project.tsx";
+import * as $$$$$$19 from "./sections/SectionsList.tsx";
+import * as $$$$$$20 from "./sections/Testimonials.tsx";
+import * as $$$$$$21 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$22 from "./sections/WhoWeAre.tsx";
 
 const manifest = {
   "sections": {
@@ -42,15 +43,16 @@ const manifest = {
     "site/sections/InTheMedia.tsx": $$$$$$10,
     "site/sections/Logos.tsx": $$$$$$11,
     "site/sections/Manifest.tsx": $$$$$$12,
-    "site/sections/Partners.tsx": $$$$$$13,
-    "site/sections/PartnersTestimonials.tsx": $$$$$$14,
-    "site/sections/Pillars.tsx": $$$$$$15,
-    "site/sections/PillarsAbout.tsx": $$$$$$16,
-    "site/sections/Project.tsx": $$$$$$17,
-    "site/sections/SectionsList.tsx": $$$$$$18,
-    "site/sections/Testimonials.tsx": $$$$$$19,
-    "site/sections/Theme/Theme.tsx": $$$$$$20,
-    "site/sections/WhoWeAre.tsx": $$$$$$21,
+    "site/sections/Newsletter.tsx": $$$$$$13,
+    "site/sections/Partners.tsx": $$$$$$14,
+    "site/sections/PartnersTestimonials.tsx": $$$$$$15,
+    "site/sections/Pillars.tsx": $$$$$$16,
+    "site/sections/PillarsAbout.tsx": $$$$$$17,
+    "site/sections/Project.tsx": $$$$$$18,
+    "site/sections/SectionsList.tsx": $$$$$$19,
+    "site/sections/Testimonials.tsx": $$$$$$20,
+    "site/sections/Theme/Theme.tsx": $$$$$$21,
+    "site/sections/WhoWeAre.tsx": $$$$$$22,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,

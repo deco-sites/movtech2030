@@ -81,3 +81,12 @@ export default function WhoWeAre({
         </div>
     );
 }
+
+
+export function LoadingFallback(){
+    return(
+        <div class={`flex flex-col items-center mx-40 py-20 gap-8 animate-pulse `}>
+            <div class={`w-24 h-8 rounded-xl`}/>
+        </div>
+    )
+}
