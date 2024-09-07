@@ -87,3 +87,17 @@ export default function ImageWithParagraph2({
     </div>
   );
 }
+
+export function LoadingFallback(){
+  return(
+    <div class={`flex flex-col lg:flex-row gap-10 items-center`}>
+      <div class={`flex flex-col gap-4`}>
+      <div class={`w-64 lg:w-[40rem] h-16 rounded-full bg-gray-200`}/>
+      <div class={`w-24 lg:w-[14rem] h-16 rounded-lg bg-gray-200`}/>
+      </div>
+      <div class={`bg-gray-200 rounded-lg w-[500px] h-[350px]`}/>
+
+      
+    </div>
+  )
+}
