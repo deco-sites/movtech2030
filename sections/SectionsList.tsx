@@ -47,3 +47,16 @@ export default function SectionList({title, subtitle,  sections, text, cta, disa
         </div>
     )
 }
+
+export function LoadingFallback(){
+  return(
+    <div class={`flex flex-col  animate-pulse items-center gap-8 py-10`}>
+          <div class={`w-80 lg:w-[40rem] h-12 rounded-full bg-gray-200`}/>
+          <div class={`flex flex-col gap-4`}>
+            <div class={`w-72 lg:w-[55rem] h-8 rounded-xl bg-gray-200`}/>
+            <div class={`w-72 lg:w-[55rem] h-8 rounded-xl bg-gray-200`}/>
+          </div>
+
+      </div>
+  )
+}
