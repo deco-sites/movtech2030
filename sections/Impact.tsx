@@ -39,3 +39,36 @@ export default function Impact({
         </div>
     )
 }
+
+export function LoadingFallback(){
+    return(
+        <div class={`flex flex-col  animate-pulse items-center gap-8  py-20`}>
+            <div class={`w-80 h-12 rounded-full bg-gray-200`}/>
+            <div class={`w-80 lg:w-[60rem] h-10 rounded-full bg-gray-200`}/>
+            <div class={`w-72 lg:w-[56rem] h-10 rounded-full bg-gray-200`}/>
+            
+            <div class={`flex flex-col py-10 md:flex-row md:flex-wrap md:justify-items-center justify-center items-center gap-10 lg:gap-[5.625rem]`}>
+                <div class={`flex flex-col gap-6 md:w-[30rem] `}>
+                    <div class={`bg-gray-200 w-32 h-8 rounded-xl`}/>
+                    <div class={`bg-gray-200 w-56 h-5 rounded-xl`}/>
+                    <div class={`bg-gray-200 w-40 h-5 rounded-xl`}/>
+                </div>
+                <div class={`flex flex-col gap-6 md:w-[30rem]`}>
+                    <div class={`bg-gray-200 w-32 h-8 rounded-xl`}/>
+                    <div class={`bg-gray-200 w-56 h-5 rounded-xl`}/>
+                    <div class={`bg-gray-200 w-40 h-5 rounded-xl`}/>
+                </div>
+                <div class={`flex flex-col gap-6 md:w-[30rem]`}>
+                    <div class={`bg-gray-200 w-32 h-8 rounded-xl`}/>
+                    <div class={`bg-gray-200 w-56 h-5 rounded-xl`}/>
+                    <div class={`bg-gray-200 w-40 h-5 rounded-xl`}/>
+                </div>
+                <div class={`flex flex-col gap-6 md:w-[30rem]`}>
+                    <div class={`bg-gray-200 w-32 h-8 rounded-xl`}/>
+                    <div class={`bg-gray-200 w-56 h-5 rounded-xl`}/>
+                    <div class={`bg-gray-200 w-40 h-5 rounded-xl`}/>
+                </div>
+            </div>
+        </div>
+    )
+}
