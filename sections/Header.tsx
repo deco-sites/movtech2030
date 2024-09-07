@@ -140,3 +140,14 @@ export default function Header({
     </nav>
   );
 }
+
+export function LoadingFallback(){
+  return(
+   <div class={`flex flex-row justify-between py-8 px-8 lg:px-24`}>
+      <div class={`w-[4.5rem] h-10 rounded-lg bg-gray-200 `}/>
+      <div class={`w-[4.5rem] h-10 rounded-lg bg-gray-200 `}/>
+      
+   </div>
+
+  )
+}
