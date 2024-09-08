@@ -16,20 +16,24 @@
         "text": "<p><span>Movimentamos </span><strong><span>+R$12MM </span></strong><span>para transformar a vida de </span><strong><span>+1M</span></strong><span> pessoas através da educação e da tecnologia.</span></p>",
         "impacts": [
           {
-            "title": "+1M",
-            "text": "De jovens e adolescentes alcançados através dos projetos que apoiamos."
+            "text": "De jovens e adolescentes alcançados através dos projetos que apoiamos.",
+            "title": 1000000,
+            "number": 1000000
           },
           {
-            "title": "+50",
-            "text": "De organizações comprometidas em garantir a execução de ações de Responsabilidade Social Corporativa (RSC)."
+            "title": 50,
+            "text": "De organizações comprometidas em garantir a execução de ações de Responsabilidade Social Corporativa (RSC).",
+            "number": 50
           },
           {
-            "title": "+5.000",
-            "text": "Empregos ocupados na área de tecnologia por meio dos nossos projetos."
+            "title": 5000,
+            "text": "Empregos ocupados na área de tecnologia por meio dos nossos projetos.",
+            "number": 5000
           },
           {
-            "title": "+100MM",
-            "text": "De reais por ano em salários, viabilizando o consumo e contribuindo para movimentar a economia do país."
+            "title": 100000000,
+            "text": "De reais por ano em salários, viabilizando o consumo e contribuindo para movimentar a economia do país.",
+            "number": 100000000
           }
         ]
       }

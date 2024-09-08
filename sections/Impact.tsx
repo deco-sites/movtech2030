@@ -1,10 +1,10 @@
 import { RichText } from "apps/admin/widgets.ts";
-
+import Counter from "../islands/Counter.tsx"
 /**
  * @title {{{title}}}
  */
 interface Impact {
-    title?: string;
+    number?: number;
     text?: string;
 }
 
@@ -15,7 +15,7 @@ interface Props {
 }
 
 const backGroundImageGrafism = "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/12359a0f-11e7-43f4-b4de-f77b9c535be6/white-grafism.png"
-const impactPlaceholder:Impact = {title:"999", text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+const impactPlaceholder:Impact = {number: 999, text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
 export default function Impact({
     title = "Type your title here",
     text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
@@ -31,7 +31,7 @@ export default function Impact({
             <div class={`flex flex-col md:flex-row md:flex-wrap md:justify-items-center justify-center items-center gap-10 lg:gap-[5.625rem]`}>
                     {impacts.map((item) => (
                         <div class={`flex flex-col gap-6 md:w-[30rem] `}>
-                            <h1 class={`text-5xl lg:text-[3.5rem] text-primary font-bold`}>{item.title}</h1>
+                            <Counter number={item.number ?? 0}/>
                             <p class={`text-md lg:text-xl text-accent`}>{item.text}</p>
                         </div>
                     ))}
