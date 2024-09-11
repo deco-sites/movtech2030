@@ -368,59 +368,56 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/InTheMedia.tsx",
-        "movementsList": [
-          {
-            "cta": {
-              "outline": false,
-              "href": "#",
-              "text": "Saiba Mais",
-              "id": "0"
-            },
-            "title": "Isto é Dinheiro",
-            "text": "CIEE lança programa com foco em tecnologia que projeta 5 mil vagas de jovem aprendiz"
+      "__resolveType": "site/sections/InTheMedia.tsx",
+      "movementsList": [
+        {
+          "cta": {
+            "outline": false,
+            "href": "#",
+            "text": "Saiba Mais",
+            "id": "0"
           },
-          {
-            "cta": {
-              "href": "#",
-              "text": "Saiba mais",
-              "id": "1"
-            },
-            "title": "Mercado & Consumo",
-            "text": "iFood, Mercado Pago e Arco Educação: unidos por maratona de tecnologia em escolas públicas"
+          "title": "Isto é Dinheiro",
+          "text": "CIEE lança programa com foco em tecnologia que projeta 5 mil vagas de jovem aprendiz"
+        },
+        {
+          "cta": {
+            "href": "#",
+            "text": "Saiba mais",
+            "id": "1"
           },
-          {
-            "cta": {
-              "href": "#",
-              "text": "Saiba mais",
-              "id": "2"
-            },
-            "text": "Resposta aos gargalos das empresas, novo programa de aprendizagem conecta o jovem com a IA",
-            "title": "Exame"
+          "title": "Mercado & Consumo",
+          "text": "iFood, Mercado Pago e Arco Educação: unidos por maratona de tecnologia em escolas públicas"
+        },
+        {
+          "cta": {
+            "href": "#",
+            "text": "Saiba mais",
+            "id": "2"
           },
-          {
-            "cta": {
-              "href": "#",
-              "id": "3",
-              "text": "Saiba mais"
-            },
-            "text": "Potência Tech chega a 100 mil bolsas distribuídas",
-            "title": "IT Fórum"
+          "text": "Resposta aos gargalos das empresas, novo programa de aprendizagem conecta o jovem com a IA",
+          "title": "Exame"
+        },
+        {
+          "cta": {
+            "href": "#",
+            "id": "3",
+            "text": "Saiba mais"
           },
-          {
-            "cta": {
-              "href": "#",
-              "text": "Saiba mais",
-              "id": "4"
-            },
-            "text": "Com mais de 600 mil alunos, Maratona Tech tem seis vezes mais inscritos",
-            "title": "VEJA"
-          }
-        ],
-        "title": "Movimento Tech na imprensa"
-      }
+          "text": "Potência Tech chega a 100 mil bolsas distribuídas",
+          "title": "IT Fórum"
+        },
+        {
+          "cta": {
+            "href": "#",
+            "text": "Saiba mais",
+            "id": "4"
+          },
+          "text": "Com mais de 600 mil alunos, Maratona Tech tem seis vezes mais inscritos",
+          "title": "VEJA"
+        }
+      ],
+      "title": "Movimento Tech na imprensa"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
