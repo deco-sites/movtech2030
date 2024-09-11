@@ -14,7 +14,7 @@
         "cta": [
           {
             "id": "1",
-            "href": "#",
+            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
             "text": "FAÇA PARTE DO MOVIMENTO",
             "outline": false
           }
@@ -82,7 +82,7 @@
         "cta": [
           {
             "id": "1",
-            "href": "#",
+            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
             "text": "FAÇA PARTE DO MOVIMENTO",
             "outline": false
           }
@@ -119,11 +119,11 @@
         "__resolveType": "site/sections/Pillars.tsx",
         "cta": [
           {
-            "href": "#",
+            "href": "/pilares",
             "text": "Ler Mais"
           },
           {
-            "href": "#",
+            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
             "text": "FAÇA PARTE DO MOVIMENTO"
           }
         ],
@@ -337,7 +337,7 @@
         "__resolveType": "site/sections/PartnersTestimonials.tsx",
         "cta": [
           {
-            "href": "#",
+            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
             "text": "FAÇA PARTE DO MOVIMENTO"
           }
         ],

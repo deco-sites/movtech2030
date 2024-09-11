@@ -93,12 +93,13 @@
         "text": "Seu projeto também pode receber o apoio do Movtech. Junte-se à rede e colabore para conectar talentos e oportunidades.",
         "cta": [
           {
-            "href": "#",
-            "text": "QUERO SER APOIADO PELO MOVIMENTO"
+            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
+            "text": "QUERO SER APOIADO PELO MOVIMENTO",
+            "outline": false
           },
           {
             "text": "QUERO RECEBER AS OPORTUNIDADES DO MOVIMENTO",
-            "href": "#"
+            "href": "https://docs.google.com/forms/u/1/d/e/1FAIpQLSemoukH7X8eAcrsnrDSWu87lAp_bI2MIYnBju6C5VhxcUu3zA/viewform?usp=send_form"
           }
         ],
         "sections": [

@@ -21,7 +21,7 @@
         "__resolveType": "site/sections/SectionsList.tsx",
         "cta": [
           {
-            "href": "#",
+            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
             "text": "FAÇA PARTE DO MOVIMENTO"
           }
         ],
@@ -66,7 +66,8 @@
               "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/637bf4c7-3cfe-4fbe-8ab5-7adc0c641ed5/pillarImage3.png"
             }
           }
-        ]
+        ],
+        "disableBackGroundImage": true
       }
     },
     {
