@@ -49,7 +49,7 @@
             "text": "\"Os alunos podem despertar bastante interesse sobre a área da tecnologia, abrir portas para novas profissões que eles possam ser no futuro.\"",
             "personName": "Sarah Alves",
             "aboutPerson": "Medalhista de ouro na Maratona Tech",
-            "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/38434999-ecfb-4f41-b7b2-7babb1855627/Maratona-Tech---Depoimentos-Jijoca-CE.mp4"
+            "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/c90046a0-639a-4b03-be99-a47fcd73501f/depoimentoAluna1.mp4"
           },
           {
             "placement": "right",
@@ -60,14 +60,14 @@
           },
           {
             "placement": "left",
-            "video": "https://www.youtube.com/embed/2I9osBwktcQ?start=64",
+            "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/b1ea34b1-3c3a-4249-8269-77673d6047b6/depoimentoProfessor.mp4",
             "text": "\"Eu como professor fiquei muito satisfeito com o trabalho feito dentro da escola. A Maratona Tech traz outra visão para os alunos da tecnologia como recurso.\"",
             "personName": "Leonardo Silva",
             "aboutPerson": "Professor"
           },
           {
             "placement": "right",
-            "video": "https://www.youtube.com/embed/0gCoy3tUZoo",
+            "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/9617fa83-de55-4589-ab10-74f893dd05f7/Depoimentos-Maratona-Tech.mp4",
             "text": "\"A tecnologia mudou muito o meu rumo porque eu estava perdido, mas depois que eu a conheci, sem dúvidas vou para a programação.\"",
             "personName": "João Pedro Nascimento",
             "aboutPerson": "Aluno participante do Maratona Tech"
@@ -75,8 +75,8 @@
         ],
         "subTitle": "Você também pode amplificar impactos e resultados por meio da educação tecnológica.",
         "cta": {
-          "href": "#",
-          "text": "FAÇA PARTE DO MOVIMENTO"
+          "text": "FAÇA PARTE DO MOVIMENTO",
+          "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7"
         },
         "testimonialsText": [
           {
@@ -91,7 +91,7 @@
           },
           {
             "aboutPerson": "Potência Tech",
-            "text": "\"Durante o curso, mergulhei em Python, SQL, Power BI e estatística, adquirindo habilidades fundamentais para análise de dados. Através de projetos significativos, apliquei esses conhecimentos de maneira prática e tangível. Além da parte de hard skills, também tivemos instrutores de soft skills incríveis que nos ajudaram na melhoria do currículo e LinkedIn, para empregabilidade.\" ",
+            "text": "Durante o curso, mergulhei em Python, SQL, Power BI e estatística, adquirindo habilidades fundamentais para análise de dados. Através de projetos significativos, apliquei esses conhecimentos de maneira prática e tangível. Além da parte de hard skills, também tivemos instrutores de soft skills incríveis que nos ajudaram na melhoria do currículo e LinkedIn, para empregabilidade.",
             "personName": "Rafael Assis"
           }
         ]

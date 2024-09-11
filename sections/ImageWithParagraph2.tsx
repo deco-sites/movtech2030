@@ -65,7 +65,7 @@ export default function ImageWithParagraph2({
           />
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 text-center lg:text-left ">
-          <div class="text-2xl lg:text-4xl  leading-[54px] text-accent "
+          <div class="text-2xl lg:text-4xl  lg:leading-[54px] text-accent "
               dangerouslySetInnerHTML={{__html: title }}>
             
           </div>

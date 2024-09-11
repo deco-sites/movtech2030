@@ -57,7 +57,7 @@ export default function PartnersTestimonials({
             <h1 class={`text-2xl lg:text-5xl text-info font-bold`}>{title}</h1>
             <div class={`grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-10`}>
 
-            <div className="grid grid-cols-1  gap-6">
+            <div className="grid grid-cols-1  gap-10">
                 {testimonials.slice(0, 2).map((testimonial, key) => (
                     <div
                     key={key}

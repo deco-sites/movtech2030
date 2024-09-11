@@ -61,7 +61,7 @@ export default function ImpactsTestiominals({
                          PLACEMENT[item.placement]
                        } gap-12 md:gap-20 text-left items-center z-10`}
                      >
-                       <iframe  className={`w-[350px] h-[200px] lg:w-[592px] lg:h-[333px] rounded-lg`} src={item.video} frameBorder={0}      
+                       <iframe  className={`w-[350px] h-[200px] lg:w-[592px] lg:h-[307px] rounded-lg`} src={item.video} frameBorder={0}      
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         class={"rounded-[8px]"} >
         

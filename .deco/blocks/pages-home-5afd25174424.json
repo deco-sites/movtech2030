@@ -51,321 +51,294 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/WhoWeAre.tsx",
-        "title": "Quem Somos?",
-        "IWPs": [
-          {
-            "placement": "left",
-            "title": "Quando olhamos para o passado percebemos que:",
-            "description": "Nenhuma das maiores empresas do mundo era de tecnologia. Atualmente, de acordo com a lista Global 500 da Fortune, dentre as 10 maiores empresas do mundo, mais da metade são de tecnologia. O Brasil não ficou de fora dessa revolução que transformou a maneira como interagimos com as pessoas, objetos e com o mundo. É nítido como o nosso dia a dia é impactado pela tecnologia.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/ef66f2c3-24a2-4b61-856c-81ed8c8c34f5/movTechPic1.jpeg",
-            "disableSpacing": {
-              "top": true,
-              "bottom": true
-            }
-          },
-          {
-            "placement": "right",
-            "title": "A tecnologia deixou de ser um setor isolado dentro das empresas, para se tornar:",
-            "description": "Transversal, presente em todas as áreas, transformando e ressignificando as carreiras. É por isso que, quando pensamos em profissões do futuro e em gerar oportunidades para gente talentosa, pensamos necessariamente em tecnologia. Não existe carreira de sucesso no futuro sem que haja interação com tecnologia.",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e84af7ab-f9ff-46d6-a940-4f49213ebec9/movTech2030pic2.jpeg",
-            "disableSpacing": {
-              "top": true,
-              "bottom": true
-            }
+      "__resolveType": "site/sections/WhoWeAre.tsx",
+      "title": "Quem Somos?",
+      "IWPs": [
+        {
+          "placement": "left",
+          "title": "Quando olhamos para o passado percebemos que:",
+          "description": "Nenhuma das maiores empresas do mundo era de tecnologia. Atualmente, de acordo com a lista Global 500 da Fortune, dentre as 10 maiores empresas do mundo, mais da metade são de tecnologia. O Brasil não ficou de fora dessa revolução que transformou a maneira como interagimos com as pessoas, objetos e com o mundo. É nítido como o nosso dia a dia é impactado pela tecnologia.",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/ef66f2c3-24a2-4b61-856c-81ed8c8c34f5/movTechPic1.jpeg",
+          "disableSpacing": {
+            "top": true,
+            "bottom": true
           }
-        ],
-        "imageLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/b4377d86-77f5-46b2-ae02-91d85562dd8c",
-        "description": "O Movimento Tech 2030 é uma rede de organizações que une forças, recursos e investimentos para promover a inclusão de pessoas de baixa renda e historicamente sub-representadas no setor de tecnologia.",
-        "cta": [
-          {
-            "id": "1",
-            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
-            "text": "FAÇA PARTE DO MOVIMENTO",
-            "outline": false
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Axis.tsx",
-        "title": "<p><span style=\"color: rgb(255, 255, 255)\">A nossa atuação gira em torno de três eixos: r</span><strong><span style=\"color: rgb(255, 255, 255)\">ede, conhecimento e projetos.</span></strong></p>",
-        "axis": [
-          {
-            "icon": "Rede",
-            "subTitle": "Rede",
-            "description": "Conectar pessoas e organizações que fazem parte do movimento com aqueles que compõem o ecossistema de tecnologia, sempre com foco na expansão."
-          },
-          {
-            "icon": "Brain",
-            "subTitle": "Conhecimento",
-            "description": "Produzir conhecimento através de eventos, pesquisas e outras atividades que fomentem a rede, trazendo a educação como o principal vetor de transformação social."
-          },
-          {
-            "icon": "Notebook",
-            "subTitle": "Projetos",
-            "description": "O meio pelo qual executamos ações fundamentais para alcançar o impacto desejado."
-          }
-        ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Pillars.tsx",
-        "cta": [
-          {
-            "href": "/pilares",
-            "text": "Ler Mais"
-          },
-          {
-            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
-            "text": "FAÇA PARTE DO MOVIMENTO"
-          }
-        ],
-        "pillars": [
-          {
-            "pillar": "<p><strong><span>Despertar</span></strong><span> interesse pela carreira em tecnologia.</span></p>"
-          },
-          {
-            "pillar": "<p><strong><span>Capacitar</span></strong><span> talentos para as profissões do futuro.</span></p>"
-          },
-          {
-            "pillar": "<p><strong><span>Empregar</span></strong><span> profissionais de perfis historicamente sub-representados com a finalidade de promover inclusão, equidade e transformação social.</span></p>"
-          }
-        ],
-        "title": "<p><span>Dentro desses eixos, as ações são guiadas por três pilares: </span><strong><span>despertar</span></strong><span>, </span><strong><span>capacitar</span></strong><span> e </span><strong><span>empregar</span></strong><span>.</span></p>",
-        "paragraph": "<p>Dessa <strong>maneira impulsionamos novas carreiras profissionais em tecnologia</strong> e fomentamos <strong>conhecimento, formação e geração de renda enquanto ferramentas de empoderamento,</strong> desde a educação básica até a formação e empregabilidade.<br><br><strong>A potência tecnológica que o Brasil será em 2030 é construída hoje e de forma coletiva. Quer participar dessa construção?</strong></p>"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Partners.tsx",
-        "title": "Organizações que compõem nossa rede:",
-        "sponsoringInstitutions": {
-          "subTitle": "Instituições Mantenedoras",
-          "sponsorsLogos": [
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/78365556-f27f-4dc7-8357-243e4e1feda7/logo-vermelho.png",
-              "altText": "Ifood Logo"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/9acf6484-ce7f-4dc3-8973-769077dab91c/ML_br_RGB_Cor-Centrado-(3).png",
-              "altText": "Mercado Livre"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/435a1043-d916-4f36-8312-a9fe331adf61/COCMK1307-PG007_LOGO_ICCB_REDUZIDO_POSITIVO_CURVA_BAIXA-1-(1).png",
-              "altText": "Instituto Coca Cola Brasil"
-            }
-          ]
         },
-        "partners": {
-          "sponsorsLogos": [
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7ce5dadb-26de-443a-9608-0449215dca97/Accenture-logo.png",
-              "altText": "Accenture"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/460fd022-f414-4391-89f7-7842f0f2d26e/Logo-Ada_Ada---Logo---Positivo.png",
-              "altText": "Ada"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/db395330-5786-43f6-bfaf-2acef2cdc00c/Logo-aflorar_Cinza.png",
-              "altText": "Aflorar"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/1383c753-d34d-4067-bed0-1457d86025e5/Arco-Instituto-Logo.png",
-              "altText": "Arco Instituto"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7b6f5f4a-0d11-482c-ba6c-47a5d7c5231a/avanade.jpg",
-              "altText": "Avanade"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/586188b5-b8ba-4c86-94aa-1ecbd6e902a8/aws.png",
-              "altText": "AWS"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/45b2551d-a6b3-4ca9-a37a-ed48116919ab/image001.png",
-              "altText": "B3"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/9ed1df33-1efe-4c4d-94f5-9ea4b4522fbc/Logotipo.GrupoBoticario.RGB.Preferencial.Policromatico.Horizontal.Positivo.png",
-              "altText": "Grupo Boticario"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/55c945e7-d713-4331-a795-e541d3429c3c/BUSER_COVISUAL_LOGO_VERTICAL_ROSA-(3).png",
-              "altText": "Buser"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/76e052ce-bbd7-4240-ad4f-6c0c0908660f/Caldeira.jpg",
-              "altText": "Caldeira"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/8cb8df8d-fd16-4929-9677-8ad772073861/Logo_CI_T_RGB.png",
-              "altText": "CI T"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/6d42d7df-c002-4505-9ca7-aa97f5614689/Logo-CIEE-blue-orange-RGB_v1.png",
-              "altText": "CIEE"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/0ade47c9-2e1e-4bd0-978b-8d672837f5bb/cubosacademy-brand-square-white-background.png",
-              "altText": "Cubos Academy"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/4de5f488-0f1f-416d-bb71-cd6c6df90e9f/decoCx.svg",
-              "altText": "Deco Cx"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/c8ed799c-ca4c-4deb-b5e7-67d2846ffeac/DigitalHouse_Logo_Black.png",
-              "altText": "Digital House"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/50149fed-9d11-4ed7-8a9e-2f45b44e474e/dio.jpg",
-              "altText": "dio."
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/770a7f62-5c96-4b59-9551-212285a28ffd/EBAC-logo-(1).png",
-              "altText": "EBAC"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/5b5c24d0-6a2d-4242-a193-3a9ee5ef5633/Eldorado.jpg",
-              "altText": "Eldorado"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/6f043a4c-273b-4e79-9d8d-f0a1da73a6d0/FIAP.jpg",
-              "altText": "FIAP"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/75435e48-fe90-476b-9c1b-bd8268689ae9/FJLES.jpg",
-              "altText": "FJLES"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/3d066ce9-2032-49b2-b102-a97bcd19766f/Hultef-altlogo-black.png",
-              "altText": "HULT EF"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7ce53e0d-e21d-41d1-8eb0-47ac2244333e/IBM.jpg",
-              "altText": "IBM"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/f900a1af-a65f-4789-a639-126f68e83375/LOGO_KORU-03.png",
-              "altText": "KORU"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/c71f12c9-2828-456f-8cdd-35fc4701ee80/Behring_horizontal_Port_COR.png",
-              "altText": "Behring"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e228b798-5d05-4d40-a52f-6da080872ad4/MARCA__RGB__GAMA-ACADEMY__GREEN__HORIZONTAL.png",
-              "altText": "Gama Academy"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/d3a5eb98-c5c9-4028-99e1-95c29ddaac64/google.jpg",
-              "altText": "Google"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/a358fa29-369f-4470-834e-a86a5d0d1dd9/Logo_Inst.Localiza_principal.png",
-              "altText": "Localiza"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/50b467d2-cc48-4a31-b684-f5000ca646d8/Kenzie_Horizontal.png",
-              "altText": "Kenzie"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/886d6330-9bd9-4ae8-a21b-6230b7f80844/Le-Wagon_Honoris_RedBlack.png",
-              "altText": "Le Wagon"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7884cee3-0127-4d1e-8b0b-e1103fe32e5b/Oracle_rgb_c74634.png",
-              "altText": "Oracle"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/2d3eaf20-ad77-4dc8-9775-34a14fb53283/ResiliaLogo.png",
-              "altText": "Resilia"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/b1f35ca3-497b-41fc-93f7-72faad962c17/Logotipo-Rocketseat---Monocromatico.png",
-              "altText": "Rocketseat"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/ee2b2b8c-d5e1-465e-9f3a-8210071f6309/AF_LOGO_SEMANTIX_RGB-FUNDO_TRANSP.png",
-              "altText": "Semantix"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/206b83d0-08d5-4f78-bea3-8ec4ea22c235/logo_high_resolution.png",
-              "altText": "Soul Code"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/40571cf8-7cb6-4b8b-b9ca-06d408203dd3/Telles_Logo_EN_Preferencial_RGB.png",
-              "altText": "Telles Foundation"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/18e056cb-1332-4897-bedd-710ee7c2747f/Voxy-Logo_Horizontal_Navy_300ppi.png",
-              "altText": "Voxy"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e401de7a-7c7d-479a-a54d-b67be7b64594/Logo_rebel.png",
-              "altText": "VTEX"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/018075da-1d3a-416c-aebc-febf47e9477b/Logo-Vertical---Colorida-e-Preta.png",
-              "altText": "WATCH"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/d1a29ffc-5090-4b17-8d02-0b3384767800/versao-oficial.png",
-              "altText": "WO MAKERS"
-            },
-            {
-              "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e3c73a03-8582-471d-95e8-393937d0954f/XPLogo.png",
-              "altText": "XP"
-            }
-          ],
-          "subTitle": "Instituições Associadas e Parceiras"
+        {
+          "placement": "right",
+          "title": "A tecnologia deixou de ser um setor isolado dentro das empresas, para se tornar:",
+          "description": "Transversal, presente em todas as áreas, transformando e ressignificando as carreiras. É por isso que, quando pensamos em profissões do futuro e em gerar oportunidades para gente talentosa, pensamos necessariamente em tecnologia. Não existe carreira de sucesso no futuro sem que haja interação com tecnologia.",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e84af7ab-f9ff-46d6-a940-4f49213ebec9/movTech2030pic2.jpeg",
+          "disableSpacing": {
+            "top": true,
+            "bottom": true
+          }
         }
+      ],
+      "imageLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/b4377d86-77f5-46b2-ae02-91d85562dd8c",
+      "description": "O Movimento Tech 2030 é uma rede de organizações que une forças, recursos e investimentos para promover a inclusão de pessoas de baixa renda e historicamente sub-representadas no setor de tecnologia.",
+      "cta": [
+        {
+          "id": "1",
+          "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
+          "text": "FAÇA PARTE DO MOVIMENTO",
+          "outline": false
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Axis.tsx",
+      "title": "<p><span style=\"color: rgb(255, 255, 255)\">A nossa atuação gira em torno de três eixos: r</span><strong><span style=\"color: rgb(255, 255, 255)\">ede, conhecimento e projetos.</span></strong></p>",
+      "axis": [
+        {
+          "icon": "Rede",
+          "subTitle": "Rede",
+          "description": "Conectar pessoas e organizações que fazem parte do movimento com aqueles que compõem o ecossistema de tecnologia, sempre com foco na expansão."
+        },
+        {
+          "icon": "Brain",
+          "subTitle": "Conhecimento",
+          "description": "Produzir conhecimento através de eventos, pesquisas e outras atividades que fomentem a rede, trazendo a educação como o principal vetor de transformação social."
+        },
+        {
+          "icon": "Notebook",
+          "subTitle": "Projetos",
+          "description": "O meio pelo qual executamos ações fundamentais para alcançar o impacto desejado."
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Pillars.tsx",
+      "cta": [
+        {
+          "href": "/pilares",
+          "text": "Ler Mais"
+        },
+        {
+          "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
+          "text": "FAÇA PARTE DO MOVIMENTO"
+        }
+      ],
+      "pillars": [
+        {
+          "pillar": "<p><strong><span>Despertar</span></strong><span> interesse pela carreira em tecnologia.</span></p>"
+        },
+        {
+          "pillar": "<p><strong><span>Capacitar</span></strong><span> talentos para as profissões do futuro.</span></p>"
+        },
+        {
+          "pillar": "<p><strong><span>Empregar</span></strong><span> profissionais de perfis historicamente sub-representados com a finalidade de promover inclusão, equidade e transformação social.</span></p>"
+        }
+      ],
+      "title": "<p>Dentro desses eixos, as ações são guiadas por três pilares: <strong>despertar</strong>, <strong>capacitar</strong> e <strong>empregar</strong>.</p>",
+      "paragraph": "<p>Dessa <strong>maneira impulsionamos novas carreiras profissionais em tecnologia</strong> e fomentamos <strong>conhecimento, formação e geração de renda enquanto ferramentas de empoderamento,</strong> desde a educação básica até a formação e empregabilidade.<br><br><strong>A potência tecnológica que o Brasil será em 2030 é construída hoje e de forma coletiva. Quer participar dessa construção?</strong></p>"
+    },
+    {
+      "__resolveType": "site/sections/Partners.tsx",
+      "title": "Organizações que compõem nossa rede:",
+      "sponsoringInstitutions": {
+        "subTitle": "Instituições Mantenedoras",
+        "sponsorsLogos": [
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/78365556-f27f-4dc7-8357-243e4e1feda7/logo-vermelho.png",
+            "altText": "Ifood Logo"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/9acf6484-ce7f-4dc3-8973-769077dab91c/ML_br_RGB_Cor-Centrado-(3).png",
+            "altText": "Mercado Livre"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/435a1043-d916-4f36-8312-a9fe331adf61/COCMK1307-PG007_LOGO_ICCB_REDUZIDO_POSITIVO_CURVA_BAIXA-1-(1).png",
+            "altText": "Instituto Coca Cola Brasil"
+          }
+        ]
+      },
+      "partners": {
+        "sponsorsLogos": [
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7ce5dadb-26de-443a-9608-0449215dca97/Accenture-logo.png",
+            "altText": "Accenture"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/460fd022-f414-4391-89f7-7842f0f2d26e/Logo-Ada_Ada---Logo---Positivo.png",
+            "altText": "Ada"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/1383c753-d34d-4067-bed0-1457d86025e5/Arco-Instituto-Logo.png",
+            "altText": "Arco Instituto"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7b6f5f4a-0d11-482c-ba6c-47a5d7c5231a/avanade.jpg",
+            "altText": "Avanade"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/586188b5-b8ba-4c86-94aa-1ecbd6e902a8/aws.png",
+            "altText": "AWS"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/45b2551d-a6b3-4ca9-a37a-ed48116919ab/image001.png",
+            "altText": "B3"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/9ed1df33-1efe-4c4d-94f5-9ea4b4522fbc/Logotipo.GrupoBoticario.RGB.Preferencial.Policromatico.Horizontal.Positivo.png",
+            "altText": "Grupo Boticario"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/55c945e7-d713-4331-a795-e541d3429c3c/BUSER_COVISUAL_LOGO_VERTICAL_ROSA-(3).png",
+            "altText": "Buser"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/76e052ce-bbd7-4240-ad4f-6c0c0908660f/Caldeira.jpg",
+            "altText": "Caldeira"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/8cb8df8d-fd16-4929-9677-8ad772073861/Logo_CI_T_RGB.png",
+            "altText": "CI T"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/6d42d7df-c002-4505-9ca7-aa97f5614689/Logo-CIEE-blue-orange-RGB_v1.png",
+            "altText": "CIEE"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/0ade47c9-2e1e-4bd0-978b-8d672837f5bb/cubosacademy-brand-square-white-background.png",
+            "altText": "Cubos Academy"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/4de5f488-0f1f-416d-bb71-cd6c6df90e9f/decoCx.svg",
+            "altText": "Deco Cx"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/c8ed799c-ca4c-4deb-b5e7-67d2846ffeac/DigitalHouse_Logo_Black.png",
+            "altText": "Digital House"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/50149fed-9d11-4ed7-8a9e-2f45b44e474e/dio.jpg",
+            "altText": "dio."
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/770a7f62-5c96-4b59-9551-212285a28ffd/EBAC-logo-(1).png",
+            "altText": "EBAC"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/5b5c24d0-6a2d-4242-a193-3a9ee5ef5633/Eldorado.jpg",
+            "altText": "Eldorado"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/6f043a4c-273b-4e79-9d8d-f0a1da73a6d0/FIAP.jpg",
+            "altText": "FIAP"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/75435e48-fe90-476b-9c1b-bd8268689ae9/FJLES.jpg",
+            "altText": "FJLES"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/3d066ce9-2032-49b2-b102-a97bcd19766f/Hultef-altlogo-black.png",
+            "altText": "HULT EF"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7ce53e0d-e21d-41d1-8eb0-47ac2244333e/IBM.jpg",
+            "altText": "IBM"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/f900a1af-a65f-4789-a639-126f68e83375/LOGO_KORU-03.png",
+            "altText": "KORU"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/c71f12c9-2828-456f-8cdd-35fc4701ee80/Behring_horizontal_Port_COR.png",
+            "altText": "Behring"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e228b798-5d05-4d40-a52f-6da080872ad4/MARCA__RGB__GAMA-ACADEMY__GREEN__HORIZONTAL.png",
+            "altText": "Gama Academy"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/d3a5eb98-c5c9-4028-99e1-95c29ddaac64/google.jpg",
+            "altText": "Google"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/a358fa29-369f-4470-834e-a86a5d0d1dd9/Logo_Inst.Localiza_principal.png",
+            "altText": "Localiza"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7884cee3-0127-4d1e-8b0b-e1103fe32e5b/Oracle_rgb_c74634.png",
+            "altText": "Oracle"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/2d3eaf20-ad77-4dc8-9775-34a14fb53283/ResiliaLogo.png",
+            "altText": "Resilia"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/b1f35ca3-497b-41fc-93f7-72faad962c17/Logotipo-Rocketseat---Monocromatico.png",
+            "altText": "Rocketseat"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/ee2b2b8c-d5e1-465e-9f3a-8210071f6309/AF_LOGO_SEMANTIX_RGB-FUNDO_TRANSP.png",
+            "altText": "Semantix"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/206b83d0-08d5-4f78-bea3-8ec4ea22c235/logo_high_resolution.png",
+            "altText": "Soul Code"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/40571cf8-7cb6-4b8b-b9ca-06d408203dd3/Telles_Logo_EN_Preferencial_RGB.png",
+            "altText": "Telles Foundation"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/18e056cb-1332-4897-bedd-710ee7c2747f/Voxy-Logo_Horizontal_Navy_300ppi.png",
+            "altText": "Voxy"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e401de7a-7c7d-479a-a54d-b67be7b64594/Logo_rebel.png",
+            "altText": "VTEX"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/018075da-1d3a-416c-aebc-febf47e9477b/Logo-Vertical---Colorida-e-Preta.png",
+            "altText": "WATCH"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/d1a29ffc-5090-4b17-8d02-0b3384767800/versao-oficial.png",
+            "altText": "WO MAKERS"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e3c73a03-8582-471d-95e8-393937d0954f/XPLogo.png",
+            "altText": "XP"
+          }
+        ],
+        "subTitle": "Instituições Associadas e Parceiras"
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/PartnersTestimonials.tsx",
-        "cta": [
-          {
-            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
-            "text": "FAÇA PARTE DO MOVIMENTO"
-          }
-        ],
-        "title": "O que dizem nossos parceiros?",
-        "testimonials": [
-          {
-            "text": "\"A gente acredita no Movtech como uma Rede que pode ser catalítica das mudanças em termos de ganhos educacionais em tecnologia, além da inclusão de grupos sub-representações e subestimados no mercado de trabalho.\"",
-            "name": "Luana Ozemela",
-            "partnerName": "iFood",
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/911169d6-c7e3-484f-81a5-1f3a77c26159/LuanaOzamela.jpeg",
-            "companyName": "iFood"
-          },
-          {
-            "text": "​\"É muito bom constatar a potência da colaboração e estar em uma rede formada por organizações que compartilham dos mesmos propósitos e estão dispostas a trabalhar em rede para que cada vez mais jovens possam estudar tecnologia, construindo um futuro melhor para todos e um setor tecnológico mais justo, diverso e, portanto, mais inovador!\"",
-            "name": "Laura Motta",
-            "partnerName": "Mercado Livre",
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7b2dd835-fc59-4f25-aa4d-60b4617bcad9/LauraMota.jpeg",
-            "companyName": "Mercado Livre"
-          },
-          {
-            "partnerName": "Instituto Coca-Cola",
-            "name": "Daniele Redondo",
-            "text": "\"O Movtech tem a missão de capacitar milhões de jovens em capacidades digitais para que a inclusão produtiva aconteça. Eu acredito que a união do Instituto Coca-Cola com o Movtech pode ser muito importante para o futuro dos jovens no país.\"",
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/cea481b5-e9cf-477b-b848-311825373ad5/DanieleRedondo.jpeg",
-            "companyName": "Instituto Coca Cola"
-          }
-        ]
-      }
+      "__resolveType": "site/sections/PartnersTestimonials.tsx",
+      "cta": [
+        {
+          "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
+          "text": "FAÇA PARTE DO MOVIMENTO"
+        }
+      ],
+      "title": "O que dizem nossos parceiros?",
+      "testimonials": [
+        {
+          "text": "\"A gente acredita no Movtech como uma Rede que pode ser catalítica das mudanças em termos de ganhos educacionais em tecnologia, além da inclusão de grupos sub-representações e subestimados no mercado de trabalho.\"",
+          "name": "Luana Ozemela",
+          "partnerName": "iFood",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/911169d6-c7e3-484f-81a5-1f3a77c26159/LuanaOzamela.jpeg",
+          "companyName": "iFood"
+        },
+        {
+          "text": "​\"É muito bom constatar a potência da colaboração e estar em uma rede formada por organizações que compartilham dos mesmos propósitos e estão dispostas a trabalhar em rede para que cada vez mais jovens possam estudar tecnologia, construindo um futuro melhor para todos e um setor tecnológico mais justo, diverso e, portanto, mais inovador!\"",
+          "name": "Laura Motta",
+          "partnerName": "Mercado Livre",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7b2dd835-fc59-4f25-aa4d-60b4617bcad9/LauraMota.jpeg",
+          "companyName": "Mercado Livre"
+        },
+        {
+          "partnerName": "Instituto Coca-Cola",
+          "name": "Daniele Redondo",
+          "text": "\"O Movtech tem a missão de capacitar milhões de jovens em capacidades digitais para que a inclusão produtiva aconteça. Eu acredito que a união do Instituto Coca-Cola com o Movtech pode ser muito importante para o futuro dos jovens no país.\"",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/cea481b5-e9cf-477b-b848-311825373ad5/DanieleRedondo.jpeg",
+          "companyName": "Instituto Coca Cola"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/InTheMedia.tsx",
@@ -373,7 +346,7 @@
         {
           "cta": {
             "outline": false,
-            "href": "#",
+            "href": "https://istoedinheiro.com.br/ciee-lanca-programa-com-foco-em-tecnologia-com-5-mil-vagas-de-jovem-aprendiz/",
             "text": "Saiba Mais",
             "id": "0"
           },
@@ -382,7 +355,7 @@
         },
         {
           "cta": {
-            "href": "#",
+            "href": "https://mercadoeconsumo.com.br/18/04/2024/sustentabilidade/ifood-mercado-pago-e-arco-educacao-unidos-por-maratona-de-tecnologia-em-escolas-publicas/?cn-reloaded=1",
             "text": "Saiba mais",
             "id": "1"
           },
@@ -391,7 +364,7 @@
         },
         {
           "cta": {
-            "href": "#",
+            "href": "https://exame.com/negocios/programa-aprendizagem-conecta-jovem-com-a-ia/",
             "text": "Saiba mais",
             "id": "2"
           },
@@ -400,7 +373,7 @@
         },
         {
           "cta": {
-            "href": "#",
+            "href": "https://itforum.com.br/noticias/potencia-tech-100-mil-bolsas/",
             "id": "3",
             "text": "Saiba mais"
           },
@@ -409,7 +382,7 @@
         },
         {
           "cta": {
-            "href": "#",
+            "href": "https://veja.abril.com.br/coluna/radar/com-mais-de-600-mil-alunos-maratona-tech-tem-seis-vezes-mais-inscritos",
             "text": "Saiba mais",
             "id": "4"
           },
@@ -452,12 +425,12 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Newsletter.tsx",
-        "title": "Assine o nosso Newsletter",
+        "title": "Assine a nossa Newsletter",
         "email": "contato@movtech.org",
         "cta": [
           {
             "href": "https://docs.google.com/forms/u/1/d/e/1FAIpQLSemoukH7X8eAcrsnrDSWu87lAp_bI2MIYnBju6C5VhxcUu3zA/viewform?usp=send_form",
-            "text": "Inscrever-me"
+            "text": "Inscreva-se"
           },
           {
             "href": "#",
