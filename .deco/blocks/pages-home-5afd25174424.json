@@ -455,19 +455,18 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Newsletter.tsx",
-        "title": "Assine a nossa Newsletter",
-        "emailInput": {
-          "placeholder": "Seu email",
-          "cta": {
-            "href": "#",
+        "title": "Assine o nosso Newsletter",
+        "email": "contato@movtech.org",
+        "cta": [
+          {
+            "href": "https://docs.google.com/forms/u/1/d/e/1FAIpQLSemoukH7X8eAcrsnrDSWu87lAp_bI2MIYnBju6C5VhxcUu3zA/viewform?usp=send_form",
             "text": "Inscrever-me"
+          },
+          {
+            "href": "#",
+            "text": "FALE CONOSCO"
           }
-        },
-        "cta": {
-          "href": "#",
-          "text": "Fale Conosco"
-        },
-        "email": "contato@movtech.org"
+        ]
       }
     },
     {
