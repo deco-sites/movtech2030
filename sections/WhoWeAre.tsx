@@ -40,9 +40,9 @@ export default function WhoWeAre({
     cta = [{ id: "change-me-1", href: "/", text: "Change me", outline: false },]
 }: Props) {
     return (
-        <div id={`quem-somos`} class={`flex flex-col items-center mx-auto gap-[100px] py-[80px]`}>
+        <div id={`quem-somos`} class={`flex flex-col items-center mx-auto gap-[100px] py-[40px]`}>
             <div class={`flex flex-col items-center gap-[30px] text-center lg:px-[80px]`}>
-                <Image src={imageLogo} width={135} height={89} />
+                <Image src={imageLogo} width={220} height={145} />
                 <h1 class="inline-block lg:text-5xl text-2xl leading-none font-bold text-primary">
                     {title}
                 </h1>

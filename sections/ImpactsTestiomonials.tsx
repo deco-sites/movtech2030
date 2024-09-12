@@ -1,4 +1,4 @@
-import { VideoWidget } from "apps/admin/widgets.ts";
+import { RichText, VideoWidget } from "apps/admin/widgets.ts";
 /**
  * @title {{{personName}}}
  */
@@ -27,7 +27,7 @@ interface CTA {
 }
 
 export interface Props {
-    title?: string;
+    title?: RichText;
     testiomonialsVideos?: testiomonialWithVideo[];
     testimonialsText?: testimonial[];
     subTitle?: string;
@@ -52,7 +52,9 @@ export default function ImpactsTestiominals({
 } : Props){
     return(
         <div class={`flex flex-col items-center text-center px-4 lg:px-10 gap-[2.5rem] lg:gap-[6.25rem] py-[2.5rem] lg:py-[6.25rem]`}>
-            <h1 class={`text-2xl lg:text-5xl text-accent`}>{title}</h1>
+            <div class={`text-2xl lg:text-5xl text-accent`} dangerouslySetInnerHTML={{
+                __html: title
+            }}></div>
             <div class={`flex flex-col items-center gap-[2.5rem] lg:gap-[6.25rem]`}>
                 {testiomonialsVideos.map((item) => (
                      <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
@@ -84,7 +86,7 @@ export default function ImpactsTestiominals({
             </div>
             <div class={`grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-10`}>
 
-            <div className="grid grid-cols-1  gap-6">
+            <div className="grid grid-cols-1  gap-10">
                 {testimonialsText.slice(0, 2).map((item, key) => (
                     <div
                     key={key}

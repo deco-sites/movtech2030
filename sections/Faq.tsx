@@ -52,7 +52,7 @@ export default function BlogPosts({
   ],
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-28">
+    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-20">
       <div class="flex flex-col  gap-10 lg:gap-20 justify-between">
         <div class="flex- space-y-6  text-center">
             <h1 class={`text-2xl lg:text-5xl text-accent font-bold`}>{title}</h1>

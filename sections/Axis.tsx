@@ -31,7 +31,7 @@ export default function Axis({
             class={` flex flex-col gap-10 lg:gap-20 bg-primary items-center py-[3.75rem] lg:py-[6.25rem] px-4 lg:px-10 text-center lg:text-start `}
         >
             <div
-                class="inline-block lg:text-[2.5rem] text-2xl leading-9 font-medium"
+                class="inline-block lg:text-[2.5rem] text-2xl font-medium leading-9 "
                 dangerouslySetInnerHTML={{
                     __html: title,
                 }}
@@ -50,10 +50,10 @@ export default function Axis({
                             stroke-width={0.1}
                             class={`p-1 rounded-md bg-primary`}
                         />
-                        <h1 class={`text-secondary text-xl lg:text-4xl`}>
+                        <h1 class={`text-secondary font-bold text-xl lg:text-4xl`}>
                             {content.subTitle}
                         </h1>
-                        <p class={`text-sm lg:text-xl text-accent`}>
+                        <p class={`text-xl text-accent`}>
                             {content.description}
                         </p>
                     </div>

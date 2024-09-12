@@ -64,7 +64,7 @@ export default function ImageWithParagraph2({
             loading="lazy"
           />
         </div>
-        <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 text-center lg:text-left ">
+        <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl flex flex-col items-center lg:items-start gap-[2rem] lg:gap-4 text-center lg:text-left ">
           <div class="text-2xl lg:text-4xl  lg:leading-[54px] text-accent "
               dangerouslySetInnerHTML={{__html: title }}>
             

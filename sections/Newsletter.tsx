@@ -47,13 +47,16 @@ export default function Newsletter({
             </div>
             ))}
             </div>
-            <a
+            <div class={`flex flex-col gap-5 items-center`}>
+            <p class={`text-info text-xs lg:text-[1.25rem] font-bold`}>Fale conosco:</p>
+            <a 
                     href={`MAILTO:${email}`}
                     class={`text-info text-xs lg:text-[1.25rem]`}
                     >
                     {email}
                 </a>
 
+            </div>
         </div>
     );
 }

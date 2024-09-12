@@ -36,9 +36,9 @@ export default function InTheMedia({
     }: Props) {
         return (
         <div id={`midia`}
-            class={`flex flex-col items-center  px-5 gap-[3.75rem] lg:gap-[6.25rem] py-[2.5rem] lg:py-[6.25rem]`}
+            class={`flex flex-col items-center  px-5 gap-[3.75rem] lg:gap-[6.25rem] py-[2.5rem] lg:py-[3.25rem]`}
         >
-            <h1 class={`text-[2rem] lg:text-5xl`}>{title}</h1>
+            <h1 class={`font-bold text-center text-[2rem] lg:text-5xl`}>{title}</h1>
             <div
                 class={`flex flex-col lg:flex-row lg:flex-wrap justify-center  gap-[4.5rem]`}
             >

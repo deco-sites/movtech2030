@@ -23,7 +23,7 @@ export interface Props {
 const backgroundImg = "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/12359a0f-11e7-43f4-b4de-f77b9c535be6/white-grafism.png"
 export default function SectionList({title, subtitle,  sections, text, cta, disableBackGroundImage = true}  : Props){
     return(
-        <div class={`flex flex-col items-center text-center gap-10 px-4 lg:px-40 py-10 lg:gap-[6.25rem] bg-contain bg-no-repeat bg-bottom`} style={disableBackGroundImage == false ? {backgroundImage: `url(${backgroundImg})`} : ""}>
+        <div class={`flex flex-col items-center text-center gap-10 px-4 lg:px-40 py-2 lg:py-5  bg-contain bg-no-repeat bg-bottom`} style={disableBackGroundImage == false ? {backgroundImage: `url(${backgroundImg})`} : ""}>
             
             {title ? <h1 class={`text-[2rem] lg:text-5xl text-primary font-bold `}>{title}</h1> : null}
             <p class={`text-md lg:text-2xl text-accent`}>{subtitle}</p>

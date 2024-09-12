@@ -49,7 +49,7 @@ export default function HeroFlats({
     <nav class={`lg:container lg:mx-auto mx-4 `}>
 
       <div class={`flex flex-col items-center gap-8 bg-top  bg-[length:58rem_38rem] bg-no-repeat `} style={{backgroundImage: `url(${backGroundImage})`, }}>
-      <div class="absolute inset-0 mt-24 h-[37.5rem] bg-gradient-to-t from-white to-transparent opacity-100"></div>
+      <div class="absolute inset-0 mt-24 h-[37.5rem] bg-gradient-to-t from-white via-white to-transparent opacity-100"></div>
 
         <div
           class={`flex w-full xl:container xl:mx-auto py-10 mx-2 md:mx-10 z-10 flex-col items-center justify-center text-center

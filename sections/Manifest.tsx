@@ -11,8 +11,8 @@ export default function Manifest({
     return(
         <div class={"flex flex-col items-center gap-8 py-10 lg:py-20 px-5 lg:px-0"}>
             <h1 class={"text-[2.5rem] text-secondary font-bold"}>{title}</h1>
-            <video width={796} height={447} controls class={"rounded-2xl"} >
-                <source src={video} type="video/mp4"/>
+            <video width={796} height={447} controls autoplay class={"rounded-2xl"}  >
+                <source src={video} type="video/mp4"/ >
 
             </video>
         </div>
