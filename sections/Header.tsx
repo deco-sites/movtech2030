@@ -1,6 +1,7 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx";
+import Clickhouse from "apps/website/components/Clickhouse.tsx";
 
 export interface CTA {
   id?: string;
@@ -113,7 +114,7 @@ export default function Header({
           <ul class="menu items-center  ">
             {navigation?.links.map((link) => (
               <li>
-                <a href={link.url} aria-label={link.label}>
+                <a href={link.url} aria-label={link.label} hx-on:click={`document.getElementById('mobile-drawer-nav').checked = false`}>
                   {link.label}
                 </a>
               </li>
