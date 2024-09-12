@@ -70,12 +70,12 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/Project.tsx",
-              "title": "Mira LC",
+              "title": "FUTURE DRIVEN",
               "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/3c6e8faf-f28c-4bb9-8982-8e6d250304e8/image-1.png",
               "text": "<p>Este é um progama para fomentar o ecossistema de cofundadores técnicos no Brasil, onde talentos técnicos outliers são incentivados a montarem startups, ou fazerem parte de times fundadores. É o kick-start pra criação de uma comunidade que une profundidade técnica e empreendedorismo, comprometida com um futuro onde o Brasil é protagonista em Tecnologia.</p>",
               "cta": {
                 "text": "Conhecer o projeto",
-                "href": "https://www.mira.lc/"
+                "href": "https://www.mira.lc/future-driven-2024.pdf"
               }
             }
           }
@@ -93,7 +93,7 @@
         "text": "Seu projeto também pode receber o apoio do Movtech. Junte-se à rede e colabore para conectar talentos e oportunidades.",
         "cta": [
           {
-            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
+            "href": "https://forms.gle/mbKYWwwAmwcYHsh86",
             "text": "QUERO SER APOIADO PELO MOVIMENTO",
             "outline": false
           },
@@ -110,7 +110,7 @@
               "title": "<p><strong><span>Futuros Possíveis - Pesquisa Endeavor</span></strong></p>",
               "description": "Estudo realizado pela Endeavor Brasil sobre a atuação do ecossistema de inovação na resolução dos desafios de formar talentos em tecnologia no país. Ele apresenta um panorama geral de como organizações e empresas estão formando profissionais em tecnologia e propõe como melhorar e ampliar essas formações.",
               "cta": {
-                "href": "https://endeavor.org.br/tecnologia/profissionais-de-tecnologia/",
+                "href": "https://endeavor.org.br/estudos/capital-humano/futuros-possiveis-profissionais-de-tecnologia-em-empresas-e-organizacoes/",
                 "text": "Ler Mais"
               },
               "placement": "right",

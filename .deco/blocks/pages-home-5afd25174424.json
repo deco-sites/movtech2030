@@ -27,16 +27,6 @@
               "src": "Linkedin",
               "url": "#",
               "alt": "linkedin"
-            },
-            {
-              "src": "Facebook",
-              "url": "#",
-              "alt": "facebook"
-            },
-            {
-              "src": "Twitter",
-              "url": "#",
-              "alt": "twitter"
             }
           ]
         }
@@ -131,7 +121,7 @@
         }
       ],
       "title": "<p>Dentro desses eixos, as ações são guiadas por três pilares: <strong>despertar</strong>, <strong>capacitar</strong> e <strong>empregar</strong>.</p>",
-      "paragraph": "<p>Dessa <strong>maneira impulsionamos novas carreiras profissionais em tecnologia</strong> e fomentamos <strong>conhecimento, formação e geração de renda enquanto ferramentas de empoderamento,</strong> desde a educação básica até a formação e empregabilidade.<br><br><strong>A potência tecnológica que o Brasil será em 2030 é construída hoje e de forma coletiva. Quer participar dessa construção?</strong></p>"
+      "paragraph": "<p>Dessa maneira impulsionamos novas carreiras profissionais em tecnologia e fomentamos conhecimento, formação e geração de renda enquanto ferramentas de empoderamento, desde a educação básica até a formação e empregabilidade.</p><p style=\"text-align: justify\">‎ </p><p><strong>A potência tecnológica que o Brasil será em 2030 é construída hoje e de forma coletiva. Quer participar dessa construção?</strong></p>"
     },
     {
       "__resolveType": "site/sections/Partners.tsx",
@@ -158,10 +148,6 @@
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7ce5dadb-26de-443a-9608-0449215dca97/Accenture-logo.png",
             "altText": "Accenture"
-          },
-          {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/460fd022-f414-4391-89f7-7842f0f2d26e/Logo-Ada_Ada---Logo---Positivo.png",
-            "altText": "Ada"
           },
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/1383c753-d34d-4067-bed0-1457d86025e5/Arco-Instituto-Logo.png",
@@ -408,7 +394,7 @@
           },
           {
             "title": "Quais são os projetos ou iniciativas atuais do Movimento Tech 2030?",
-            "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">Atualmente apoiamos a</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maratona.tech/\"><strong><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\"> Maratona Tech</span></u></strong></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\"> maior Olimpíada de Tecnologia do país, o </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://potenciatech.com.br/\"><strong><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\">Potência Tech</span></u></strong></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">, uma das maiores plataformas do Brasil em formação e empregabilidade em tech, o</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://portal.ciee.org.br/quero-contratar/impulso-digital/\"><strong><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\"> Impulso Digital</span></u></strong></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">, que com uma educação alinhada à realidade do mercado tem ambição de ser o melhor programa de aprendizagem de competências digitais do Brasil (Jovem Aprendiz) e o </span><strong><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">Conexão Futuro</span></strong><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">, um espaço para interação entre estudantes que se destacam em projetos nacionais de Educação.<br><br>Enquanto isso, continuamos trabalhando para ampliar o portfólio de projetos e iniciativas.</span></p>"
+            "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">Atualmente apoiamos a</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://maratona.tech/\"><strong><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\"> Maratona Tech</span></u></strong></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\"> maior Olimpíada de Tecnologia do país, o </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://potenciatech.com.br/\"><strong><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\">Potência Tech</span></u></strong></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">, uma das maiores plataformas do Brasil em formação e empregabilidade em tech, o</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://portal.ciee.org.br/quero-contratar/impulso-digital/\"><strong><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\"> Impulso Digital</span></u></strong></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">, que com uma educação alinhada à realidade do mercado tem ambição de ser o melhor programa de aprendizagem de competências digitais do Brasil (Jovem Aprendiz) e o </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.linkedin.com/posts/movtech2030_movtech-basecolaborativa-colaboraaexaeto-activity-7232477595882143744-5t83?utm_source=share&amp;utm_medium=member_desktop\"><strong><u><span style=\"color: #343fd5; font-size: 12pt\">Conexão Futuro</span></u></strong></a><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">, um espaço para interação entre estudantes que se destacam em projetos nacionais de Educação.<br><br>Enquanto isso, continuamos trabalhando para ampliar o portfólio de projetos e iniciativas.</span></p>"
           },
           {
             "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">O Movimento Tech 2030 não oferece capacitações de forma direta, nós apoiamos projetos que realizam cursos e treinamentos gratuitos em tecnologia com foco em áreas de alta demanda como programação, desenvolvimento web, análise de dados e inteligência artificial.<br><br>Esses projetos também possibilitam ao público o acesso a bolsas de estudo, doação de equipamentos e materiais didáticos e capacitação de professores. Acesse a página Projetos e Iniciativas para saber mais.</span></p>",
@@ -431,10 +417,6 @@
           {
             "href": "https://docs.google.com/forms/u/1/d/e/1FAIpQLSemoukH7X8eAcrsnrDSWu87lAp_bI2MIYnBju6C5VhxcUu3zA/viewform?usp=send_form",
             "text": "Inscreva-se"
-          },
-          {
-            "href": "#",
-            "text": "FALE CONOSCO"
           }
         ]
       }

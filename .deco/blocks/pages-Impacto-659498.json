@@ -42,7 +42,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/ImpactsTestiomonials.tsx",
-        "title": "Mais que números, impactos transformadores de uma ponta a outra:",
+        "title": "<p>Mais que números, impactos transformadores</p><p> de uma ponta a outra:</p>",
         "testiomonialsVideos": [
           {
             "placement": "left",

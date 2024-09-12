@@ -35,7 +35,8 @@
               "disableSpacing": {
                 "bottom": true,
                 "top": true
-              }
+              },
+              "placement": "right"
             }
           },
           {
@@ -51,7 +52,8 @@
                 "text": "Saiba Mais",
                 "href": "https://www.aberje.com.br/ce/premio-aberje-2022/multiplubicos"
               },
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/55c66cf6-da7f-4f1e-8c3d-901bbf37c69f/Aberje.png"
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/55c66cf6-da7f-4f1e-8c3d-901bbf37c69f/Aberje.png",
+              "placement": "right"
             }
           },
           {
@@ -60,14 +62,15 @@
               "__resolveType": "site/sections/ImageWithParagraph2.tsx",
               "cta": {
                 "text": "Saiba Mais",
-                "href": "#"
+                "href": "https://www.linkedin.com/posts/movtech2030_movtech-basecolaborativa-colaboraaexaeto-activity-7232477595882143744-5t83?utm_source=share&utm_medium=member_desktop"
               },
               "disableSpacing": {
                 "top": true,
                 "bottom": true
               },
               "title": "<p><strong>Selecionado para o Programa Residência de Impacto da Base Colaborativa</strong>: Iniciativa que reúne pessoas e projetos conectados com impacto social.</p>",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/8c2b566f-a0c6-4c0a-aaef-f596246fc687/Base.png"
+              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/8c2b566f-a0c6-4c0a-aaef-f596246fc687/Base.png",
+              "placement": "right"
             }
           }
         ]
