@@ -38,18 +38,8 @@
     "buttons": [
       {
         "src": "Linkedin",
-        "url": "#as",
-        "alt": "Linkedin Logo"
-      },
-      {
-        "src": "Facebook",
-        "url": "https://www.google.com.br/?hl=pt-BR",
-        "alt": "Facebook Icon"
-      },
-      {
-        "src": "Twitter",
-        "url": "#as",
-        "alt": "Twitter"
+        "alt": "Linkedin Logo",
+        "url": "https://www.linkedin.com/company/movtech2030/"
       }
     ]
   },
