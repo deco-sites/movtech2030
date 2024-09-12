@@ -154,6 +154,10 @@
             "altText": "Arco Instituto"
           },
           {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/cd9dbb04-5fc1-40bd-a9bd-01d5184d3a52/ALURA.svg",
+            "altText": "Alura start"
+          },
+          {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7b6f5f4a-0d11-482c-ba6c-47a5d7c5231a/avanade.jpg",
             "altText": "Avanade"
           },
@@ -186,12 +190,20 @@
             "altText": "CIEE"
           },
           {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/5c217e3b-7e7e-40d0-9b59-1348803d66b0/copastur.webp",
+            "altText": "Copastur"
+          },
+          {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/0ade47c9-2e1e-4bd0-978b-8d672837f5bb/cubosacademy-brand-square-white-background.png",
             "altText": "Cubos Academy"
           },
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/4de5f488-0f1f-416d-bb71-cd6c6df90e9f/decoCx.svg",
             "altText": "Deco Cx"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/6927529c-22b5-4fe2-a6ab-8c98f7c96f69/descomplica.png",
+            "altText": "Descomplica"
           },
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/c8ed799c-ca4c-4deb-b5e7-67d2846ffeac/DigitalHouse_Logo_Black.png",
@@ -214,8 +226,16 @@
             "altText": "FIAP"
           },
           {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/2418e9b2-d063-43f9-9eaa-67da23bd6c1d/finep.png",
+            "altText": "Finep"
+          },
+          {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/75435e48-fe90-476b-9c1b-bd8268689ae9/FJLES.jpg",
             "altText": "FJLES"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/c71f12c9-2828-456f-8cdd-35fc4701ee80/Behring_horizontal_Port_COR.png",
+            "altText": "Behring"
           },
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/3d066ce9-2032-49b2-b102-a97bcd19766f/Hultef-altlogo-black.png",
@@ -230,10 +250,6 @@
             "altText": "KORU"
           },
           {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/c71f12c9-2828-456f-8cdd-35fc4701ee80/Behring_horizontal_Port_COR.png",
-            "altText": "Behring"
-          },
-          {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e228b798-5d05-4d40-a52f-6da080872ad4/MARCA__RGB__GAMA-ACADEMY__GREEN__HORIZONTAL.png",
             "altText": "Gama Academy"
           },
@@ -244,6 +260,10 @@
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/a358fa29-369f-4470-834e-a86a5d0d1dd9/Logo_Inst.Localiza_principal.png",
             "altText": "Localiza"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/53d69ffa-e37b-41a5-b26d-ed14cb239720/MachadoMayer.png",
+            "altText": "Machado Meyer"
           },
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7884cee3-0127-4d1e-8b0b-e1103fe32e5b/Oracle_rgb_c74634.png",

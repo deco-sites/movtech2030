@@ -62,7 +62,7 @@ export default function Partners({
                         src={item.src || ""}
                         alt={item.altText || ""}
                         width={50}
-                        class={`lg:w-20`}
+                        class={`lg:w-24`}
                       />
                     ))}
                 </div>
