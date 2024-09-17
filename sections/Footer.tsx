@@ -90,51 +90,7 @@ export default function Footer({
         </label>
       </div>
 
-      {/* sidebar */}
-      <aside class="drawer-side z-50">
-        {/* Close when clicking on overlay */}
-        <label
-          htmlFor="mobile-drawer-nav"
-          aria-label="close sidebar"
-          class="drawer-overlay"
-        />
-
-        <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content">
-          <a class="p-4" href="/">
-            <Image
-              src={logo.src || ""}
-              width={100}
-              height={65}
-              alt={logo.alt}
-            />
-          </a>
-
-          <ul class="menu">
-            {navigation?.links.map((link) => (
-              <li>
-                <a href={link.url} aria-label={link.label}>
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-
-          <ul class="p-4 flex items-center gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.url}
-                href={item?.url ?? "#"}
-                target={item?.url.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
-              >
-                <Icon id={item.src} size={24} strokeWidth={0.1}/>
-                </a>
-            ))}
-          </ul>
-        </div>
-      </aside>
+      
     </nav>
   );
 }
