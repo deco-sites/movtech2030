@@ -7,7 +7,7 @@ export default defineApp(async (_req, ctx) => {
   const revision = await Context.active().release?.revision();
 
   return (
-    <>
+    <div class={`mt-28`}>
       {/* Include default fonts and css vars */}
       <Theme colorScheme="any" />
 
@@ -32,6 +32,6 @@ export default defineApp(async (_req, ctx) => {
 
       {/* Rest of Preact tree */}
       <ctx.Component />
-    </>
+    </div>
   );
 });

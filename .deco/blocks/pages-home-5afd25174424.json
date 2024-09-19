@@ -6,30 +6,27 @@
       "__resolveType": "Header"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p><span style=\"color: rgb(0, 172, 191)\">Um setor de tecnologia forte e inclusivo é</span> construído pela conexão entre talentos e oportunidades.</p>",
-        "description": "<p><span>O Movimento Tech 2030 é uma coalizão de organizações que otimiza recursos e investimentos para escalar impactos e promover conhecimento, formação e geração de renda em tecnologia. Nós expandimos possibilidades gerando oportunidade para gente talentosa. Afinal, o principal poder da tecnologia não é substituir pessoas. É qualificá-las para potencializar o que elas tem de insubstituível.</span></p>",
-        "cta": [
-          {
-            "id": "1",
-            "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
-            "text": "FAÇA PARTE DO MOVIMENTO",
-            "outline": false
-          }
-        ],
-        "peopleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/acdfcff6-192f-4fd2-837b-a71814eb9d5a",
-        "backGroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/06c8bd01-49a6-402d-b4d8-b9ecb1da1e57",
-        "navigation": {
-          "buttons": [
-            {
-              "src": "Linkedin",
-              "url": "https://www.linkedin.com/company/movtech2030/",
-              "alt": "linkedin"
-            }
-          ]
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p><span style=\"color: rgb(0, 172, 191)\">Um setor de tecnologia forte e inclusivo é</span> construído pela conexão entre talentos e oportunidades.</p>",
+      "description": "<p><span>O Movimento Tech 2030 é uma coalizão de organizações que otimiza recursos e investimentos para escalar impactos e promover conhecimento, formação e geração de renda em tecnologia. Nós expandimos possibilidades gerando oportunidade para gente talentosa. Afinal, o principal poder da tecnologia não é substituir pessoas. É qualificá-las para potencializar o que elas tem de insubstituível.</span></p>",
+      "cta": [
+        {
+          "id": "1",
+          "href": "https://forms.gle/Rq1pifrfkEsnP9Vu7",
+          "text": "FAÇA PARTE DO MOVIMENTO",
+          "outline": false
         }
+      ],
+      "peopleImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/acdfcff6-192f-4fd2-837b-a71814eb9d5a",
+      "backGroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/06c8bd01-49a6-402d-b4d8-b9ecb1da1e57",
+      "navigation": {
+        "buttons": [
+          {
+            "src": "Linkedin",
+            "url": "https://www.linkedin.com/company/movtech2030/",
+            "alt": "linkedin"
+          }
+        ]
       }
     },
     {
@@ -66,7 +63,7 @@
         }
       ],
       "imageLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/b4377d86-77f5-46b2-ae02-91d85562dd8c",
-      "description": "O Movimento Tech 2030 é uma rede de organizações que une forças, recursos e investimentos para promover a inclusão de pessoas de baixa renda e historicamente sub-representadas no setor de tecnologia.",
+      "description": "<p>O Movimento Tech 2030 é uma rede de organizações que une forças, recursos e investimentos para promover a inclusão de pessoas de baixa renda e historicamente sub-representadas no setor de tecnologia.</p>",
       "cta": [
         {
           "id": "1",
@@ -138,7 +135,7 @@
             "altText": "Mercado Livre"
           },
           {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/435a1043-d916-4f36-8312-a9fe331adf61/COCMK1307-PG007_LOGO_ICCB_REDUZIDO_POSITIVO_CURVA_BAIXA-1-(1).png",
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/0a2459fa-4907-4a2a-92f3-e7e9a8384c5f/COCMK1307-PG007_LOGO_ICCB_REDUZIDO_POSITIVO_CURVA_BAIXA-1-(2).png",
             "altText": "Instituto Coca Cola Brasil"
           }
         ]
@@ -158,10 +155,6 @@
             "altText": "Alura start"
           },
           {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7b6f5f4a-0d11-482c-ba6c-47a5d7c5231a/avanade.jpg",
-            "altText": "Avanade"
-          },
-          {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/586188b5-b8ba-4c86-94aa-1ecbd6e902a8/aws.png",
             "altText": "AWS"
           },
@@ -172,10 +165,6 @@
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/9ed1df33-1efe-4c4d-94f5-9ea4b4522fbc/Logotipo.GrupoBoticario.RGB.Preferencial.Policromatico.Horizontal.Positivo.png",
             "altText": "Grupo Boticario"
-          },
-          {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/55c945e7-d713-4331-a795-e541d3429c3c/BUSER_COVISUAL_LOGO_VERTICAL_ROSA-(3).png",
-            "altText": "Buser"
           },
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/76e052ce-bbd7-4240-ad4f-6c0c0908660f/Caldeira.jpg",
@@ -204,10 +193,6 @@
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/6927529c-22b5-4fe2-a6ab-8c98f7c96f69/descomplica.png",
             "altText": "Descomplica"
-          },
-          {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/c8ed799c-ca4c-4deb-b5e7-67d2846ffeac/DigitalHouse_Logo_Black.png",
-            "altText": "Digital House"
           },
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/50149fed-9d11-4ed7-8a9e-2f45b44e474e/dio.jpg",
@@ -250,10 +235,6 @@
             "altText": "KORU"
           },
           {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/e228b798-5d05-4d40-a52f-6da080872ad4/MARCA__RGB__GAMA-ACADEMY__GREEN__HORIZONTAL.png",
-            "altText": "Gama Academy"
-          },
-          {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/d3a5eb98-c5c9-4028-99e1-95c29ddaac64/google.jpg",
             "altText": "Google"
           },
@@ -266,6 +247,10 @@
             "altText": "Machado Meyer"
           },
           {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/890ddd44-52c4-48a5-b77d-d2e9aab38cdd/NewHack.png",
+            "altText": "NewHack"
+          },
+          {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/7884cee3-0127-4d1e-8b0b-e1103fe32e5b/Oracle_rgb_c74634.png",
             "altText": "Oracle"
           },
@@ -274,7 +259,7 @@
             "altText": "Resilia"
           },
           {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/b1f35ca3-497b-41fc-93f7-72faad962c17/Logotipo-Rocketseat---Monocromatico.png",
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/93c89a10-938b-4d6c-a634-526d61483331/rocketseat.png",
             "altText": "Rocketseat"
           },
           {
@@ -421,7 +406,7 @@
             "title": "O Movimento Tech 2030 oferece algum tipo de treinamento ou capacitação?"
           },
           {
-            "title": "Como posso entrar em contato com o para mais informações?",
+            "title": "Como posso entrar em contato com o Movtech para mais informações?",
             "answer": "<p><span style=\"color: rgb(0, 0, 0); font-size: 12pt\">Nos envie um e-mail através do endereço </span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"mailto:contato@movtech.org\"><u><span style=\"color: rgb(17, 85, 204); font-size: 12pt\">contato@movtech.org</span></u></a></p>"
           }
         ]

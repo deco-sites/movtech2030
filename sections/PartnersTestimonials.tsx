@@ -61,16 +61,16 @@ export default function PartnersTestimonials({
                 {testimonials.slice(0, 2).map((testimonial, key) => (
                     <div
                     key={key}
-                    className={`bg-white p-6 rounded-lg shadow-md flex flex-col`}
+                    className={`bg-white p-6 rounded-lg shadow-md flex flex-col gap-3`}
                     >
                         <p className="text-xl italic text-left mb-4">
                             {testimonial.text}
                         </p>
                         <Image
                             src={testimonial.avatar || defaultUserIcon}
-                            width={40.72}
-                            height={40.72}
-                            class={`rounded-full lg:w-[67.5px] lg:h-[67.5px]`}
+                            width={75}
+                            height={75}
+                            class={`rounded-full lg:w-[100px] lg:h-[100px] object-cover `}
                             />
                         <div className="mt-auto text-left">
                             <h4 className="text-md font-bold">
@@ -83,16 +83,16 @@ export default function PartnersTestimonials({
                 
             </div>
             <div
-                    className={`bg-white p-6 rounded-lg shadow-md flex flex-col`}
+                    className={`bg-white p-6 rounded-lg shadow-md flex flex-col gap-3`}
                     >
                         <p className="text-xl italic text-left mb-4">
                             {testimonials[2].text}
                         </p>
                         <Image
                             src={testimonials[2].avatar || defaultUserIcon}
-                            width={40.72}
-                            height={40.72}
-                            class={`rounded-full lg:w-[67.5px] lg:h-[67.5px]`}
+                            width={75}
+                            height={75}
+                            class={`rounded-full lg:w-[100px] lg:h-[100px] object-cover`}
                             />
                         <div className="mt-auto text-left">
                             <h4 className="text-md font-bold">

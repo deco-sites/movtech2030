@@ -4,11 +4,11 @@
     "title": "MovTech 2030",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Improve your page performance with deco.cx",
     "titleTemplate": "MovTech 2030",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/12376/b4377d86-77f5-46b2-ae02-91d85562dd8c",
     "descriptionTemplate": "%s",
-    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/ef66f2c3-24a2-4b61-856c-81ed8c8c34f5/movTechPic1.jpeg"
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/movtech2030/ef66f2c3-24a2-4b61-856c-81ed8c8c34f5/movTechPic1.jpeg",
+    "description": "Movimento Tech 2030!"
   },
   "global": [
     {

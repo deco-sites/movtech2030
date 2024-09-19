@@ -1,4 +1,4 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
+import type { ImageWidget, RichText } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { ImageWithParagraphType } from "site/types.ts";
 import ImageWithParagraph from "site/sections/ImageWithParagraph.tsx";
@@ -14,7 +14,7 @@ export interface CTA {
 interface Props {
     imageLogo?: ImageWidget;
     title?: string;
-    description?: string;
+    description?: RichText;
     IWPs?: ImageWithParagraphType[];
     cta?: CTA[];
 }
@@ -46,9 +46,12 @@ export default function WhoWeAre({
                 <h1 class="inline-block lg:text-5xl text-2xl leading-none font-bold text-primary">
                     {title}
                 </h1>
-                <p class="inline-block leading-9 text-xl  font-bold">
-                    {description}
-                </p>
+                <div class="inline-block leading-9 text-3xl  font-bold"
+                dangerouslySetInnerHTML={{
+                    __html: description
+                }}>
+                    
+                </div>
             </div>
 
             <div class={`flex flex-col items-center gap-20 `}>
