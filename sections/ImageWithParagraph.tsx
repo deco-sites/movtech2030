@@ -60,11 +60,11 @@ export default function ImageWithParagraph({
           />
         </div>
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 text-center lg:text-left ">
-          <div class="text-2xl lg:text-4xl  leading-[54px] text-accent "
+          <div class="text-2xl lg:text-4xl  text-accent "
               dangerouslySetInnerHTML={{__html: title }}>
             
           </div>
-          <p class=" text-md lg:text-xl leading-9">
+          <p class=" text-md lg:text-xl ">
             {description}
           </p>
           
@@ -81,7 +81,7 @@ export function LoadingFallback(){
       <div class={`w-64 lg:w-[40rem] h-16 rounded-full bg-gray-200`}/>
       <div class={`w-24 lg:w-[14rem] h-16 rounded-lg bg-gray-200`}/>
       </div>
-      <div class={`bg-gray-200 rounded-lg w-[500px] h-[350px]`}/>
+      <div class={`bg-gray-200 rounded-lg lg:w-[500px] w-[300px] h-[200px] lg:h-[350px]`}/>
 
       
     </div>
